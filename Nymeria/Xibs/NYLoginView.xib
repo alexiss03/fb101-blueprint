@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NYLoginView" customModule="FB101" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoQ-Xu-401">
+                    <rect key="frame" x="237" y="232" width="550" height="305"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login to Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBv-yF-K9I">
+                            <rect key="frame" x="50" y="35" width="450" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="450" id="0qv-Hi-c4b"/>
+                                <constraint firstAttribute="height" constant="21" id="WvS-Zf-DU8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BCN-Dy-n74">
+                            <rect key="frame" x="50" y="96" width="450" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="450" id="2wq-LQ-Shz"/>
+                                <constraint firstAttribute="height" constant="40" id="OAk-n0-7kL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BU0-YG-rgM">
+                            <rect key="frame" x="50" y="156" width="450" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="450" id="Dhf-pH-DXc"/>
+                                <constraint firstAttribute="height" constant="40" id="yd4-Ao-Qsm"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5E-0d-T3w" customClass="NYButton" customModule="FB101" customModuleProvider="target">
+                            <rect key="frame" x="50" y="226" width="450" height="50"/>
+                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="450" id="1uE-ud-rT7"/>
+                                <constraint firstAttribute="height" constant="50" id="kk0-hK-gAu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                            <state key="normal" title="SUBMIT">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="submitBtnPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Lck-nO-eRs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="i5E-0d-T3w" firstAttribute="centerX" secondItem="QoQ-Xu-401" secondAttribute="centerX" id="2mU-EP-ZqN"/>
+                        <constraint firstItem="aBv-yF-K9I" firstAttribute="top" secondItem="QoQ-Xu-401" secondAttribute="top" constant="35" id="2sS-S4-SoH"/>
+                        <constraint firstItem="BCN-Dy-n74" firstAttribute="top" secondItem="aBv-yF-K9I" secondAttribute="bottom" constant="40" id="5Pb-4M-FKm"/>
+                        <constraint firstItem="BU0-YG-rgM" firstAttribute="top" secondItem="BCN-Dy-n74" secondAttribute="bottom" constant="20" id="8ed-z0-XKT"/>
+                        <constraint firstItem="BCN-Dy-n74" firstAttribute="centerX" secondItem="QoQ-Xu-401" secondAttribute="centerX" id="LRE-rR-noS"/>
+                        <constraint firstItem="i5E-0d-T3w" firstAttribute="top" secondItem="BU0-YG-rgM" secondAttribute="bottom" constant="30" id="Z1w-TW-ued"/>
+                        <constraint firstAttribute="height" constant="305" id="kkK-HZ-cpD"/>
+                        <constraint firstAttribute="width" constant="550" id="lxR-ZB-AL3"/>
+                        <constraint firstItem="BU0-YG-rgM" firstAttribute="centerX" secondItem="QoQ-Xu-401" secondAttribute="centerX" id="pqb-Um-Md7"/>
+                        <constraint firstItem="aBv-yF-K9I" firstAttribute="centerX" secondItem="QoQ-Xu-401" secondAttribute="centerX" id="rQJ-e7-L9o"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="QoQ-Xu-401" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="0.5" id="85k-Yg-mTA"/>
+                <constraint firstItem="QoQ-Xu-401" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mIk-wl-Uwq"/>
+            </constraints>
+            <connections>
+                <outlet property="password" destination="BU0-YG-rgM" id="fTZ-kg-zj7"/>
+                <outlet property="username" destination="BCN-Dy-n74" id="06m-SS-IKH"/>
+            </connections>
+        </view>
+    </objects>
+</document>

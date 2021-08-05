@@ -1,0 +1,1891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04041E101D50D777007AD374 /* NYProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04041E0F1D50D777007AD374 /* NYProfileView.xib */; };
+		04041E121D50D7CD007AD374 /* NYProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04041E111D50D7CD007AD374 /* NYProfileView.swift */; };
+		04041E141D50D8CE007AD374 /* NYProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04041E131D50D8CE007AD374 /* NYProfileViewController.swift */; };
+		041C82D31D277AC1003D16DC /* NYBPBusinessPlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C82D21D277AC1003D16DC /* NYBPBusinessPlanningViewController.swift */; };
+		041C82D61D277BBE003D16DC /* NYBPBusinessPlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C82D51D277BBE003D16DC /* NYBPBusinessPlanningView.swift */; };
+		041C82D91D277C67003D16DC /* NYBPBusinessPlanningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C82D81D277C67003D16DC /* NYBPBusinessPlanningView.xib */; };
+		041E61851D443C9300FA3031 /* NYPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E61841D443C9300FA3031 /* NYPickerView.swift */; };
+		041E61871D443F6500FA3031 /* NYPickerViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E61861D443F6500FA3031 /* NYPickerViewToolbar.swift */; };
+		041F5D0D1D31E95B007E70CD /* NYMITermConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F5D0C1D31E95B007E70CD /* NYMITermConversionViewController.swift */; };
+		041F5D131D31EA1D007E70CD /* NYMIBenefitSellingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F5D121D31EA1D007E70CD /* NYMIBenefitSellingViewController.swift */; };
+		041F5D151D31EA67007E70CD /* NYMIComparativeAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F5D141D31EA67007E70CD /* NYMIComparativeAnalysisViewController.swift */; };
+		041F5D1B1D31EB23007E70CD /* NYMIPesoDollarInvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F5D1A1D31EB23007E70CD /* NYMIPesoDollarInvestmentViewController.swift */; };
+		041F5D1F1D31ED9F007E70CD /* NYMITermConversionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041F5D1E1D31ED9F007E70CD /* NYMITermConversionView.xib */; };
+		041F5D231D31EE87007E70CD /* NYMIBenefitSellingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041F5D201D31EE87007E70CD /* NYMIBenefitSellingView.xib */; };
+		041F5D241D31EE87007E70CD /* NYMIComparativeAnalysisView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041F5D211D31EE87007E70CD /* NYMIComparativeAnalysisView.xib */; };
+		041F5D251D31EE87007E70CD /* NYMIPesoDollarInvestmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041F5D221D31EE87007E70CD /* NYMIPesoDollarInvestmentView.xib */; };
+		0440D16A1DE93F4900B0ED7B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1581DE93F4900B0ED7B /* Roboto-Black.ttf */; };
+		0440D16B1DE93F4900B0ED7B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1591DE93F4900B0ED7B /* Roboto-BlackItalic.ttf */; };
+		0440D16C1DE93F4900B0ED7B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15A1DE93F4900B0ED7B /* Roboto-Bold.ttf */; };
+		0440D16D1DE93F4900B0ED7B /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15B1DE93F4900B0ED7B /* Roboto-BoldItalic.ttf */; };
+		0440D16E1DE93F4900B0ED7B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15C1DE93F4900B0ED7B /* Roboto-Italic.ttf */; };
+		0440D16F1DE93F4900B0ED7B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15D1DE93F4900B0ED7B /* Roboto-Light.ttf */; };
+		0440D1701DE93F4900B0ED7B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15E1DE93F4900B0ED7B /* Roboto-LightItalic.ttf */; };
+		0440D1711DE93F4900B0ED7B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D15F1DE93F4900B0ED7B /* Roboto-Medium.ttf */; };
+		0440D1721DE93F4900B0ED7B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1601DE93F4900B0ED7B /* Roboto-MediumItalic.ttf */; };
+		0440D1731DE93F4900B0ED7B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1611DE93F4900B0ED7B /* Roboto-Regular.ttf */; };
+		0440D1741DE93F4900B0ED7B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1621DE93F4900B0ED7B /* Roboto-Thin.ttf */; };
+		0440D1751DE93F4900B0ED7B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1631DE93F4900B0ED7B /* Roboto-ThinItalic.ttf */; };
+		0440D1761DE93F4900B0ED7B /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1641DE93F4900B0ED7B /* RobotoCondensed-Bold.ttf */; };
+		0440D1771DE93F4900B0ED7B /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1651DE93F4900B0ED7B /* RobotoCondensed-BoldItalic.ttf */; };
+		0440D1781DE93F4900B0ED7B /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1661DE93F4900B0ED7B /* RobotoCondensed-Italic.ttf */; };
+		0440D1791DE93F4900B0ED7B /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1671DE93F4900B0ED7B /* RobotoCondensed-Light.ttf */; };
+		0440D17A1DE93F4900B0ED7B /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1681DE93F4900B0ED7B /* RobotoCondensed-LightItalic.ttf */; };
+		0440D17B1DE93F4900B0ED7B /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0440D1691DE93F4900B0ED7B /* RobotoCondensed-Regular.ttf */; };
+		046DF5541D27D3C60025D126 /* NYBPBusinessValuationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DF5531D27D3C60025D126 /* NYBPBusinessValuationViewController.swift */; };
+		046DF5561D27D3E90025D126 /* NYBPBusinessValuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DF5551D27D3E90025D126 /* NYBPBusinessValuationView.swift */; };
+		046DF5581D27D4050025D126 /* NYBPBusinessValuationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046DF5571D27D4050025D126 /* NYBPBusinessValuationView.xib */; };
+		048627C01D0841D000F014BD /* NYSignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048627BF1D0841D000F014BD /* NYSignupView.xib */; };
+		048627C21D08449800F014BD /* NYSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048627C11D08449800F014BD /* NYSignupView.swift */; };
+		048627C41D08472100F014BD /* NYSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048627C31D08472100F014BD /* NYSignupViewController.swift */; };
+		0487111A1D2E7D01005531A9 /* NYEPEstateConservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048711191D2E7D01005531A9 /* NYEPEstateConservationViewController.swift */; };
+		04B235701D30DD25008BD36A /* NYEPEstateAvoidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2356F1D30DD25008BD36A /* NYEPEstateAvoidanceViewController.swift */; };
+		04B235721D30F6B5008BD36A /* NYEPEstatePlanningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B235711D30F6B5008BD36A /* NYEPEstatePlanningView.xib */; };
+		04B235741D30F708008BD36A /* NYEPEstatePlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B235731D30F708008BD36A /* NYEPEstatePlanningView.swift */; };
+		04DBA1361D339563008DB6A0 /* NYMIBenefitSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBA1321D339563008DB6A0 /* NYMIBenefitSellingView.swift */; };
+		04DBA1371D339563008DB6A0 /* NYMIComparativeAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBA1331D339563008DB6A0 /* NYMIComparativeAnalysisView.swift */; };
+		04DBA1381D339563008DB6A0 /* NYMIPesoDollarInvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBA1341D339563008DB6A0 /* NYMIPesoDollarInvestmentView.swift */; };
+		04DBA1391D339563008DB6A0 /* NYMITermConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBA1351D339563008DB6A0 /* NYMITermConversionView.swift */; };
+		04E08C1B1D2BC6110044B3D9 /* NYBPGroupRetirementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E08C1A1D2BC6110044B3D9 /* NYBPGroupRetirementView.xib */; };
+		04E08C1D1D2BCE990044B3D9 /* NYBPGroupRetirementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E08C1C1D2BCE990044B3D9 /* NYBPGroupRetirementView.swift */; };
+		04E08C1F1D2BCF360044B3D9 /* NYBPGroupRetirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E08C1E1D2BCF360044B3D9 /* NYBPGroupRetirementViewController.swift */; };
+		5D7FD4676E1E2C5C40F69D11 /* Pods_NymeriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8933DAB007EB7B25CFEAB7D9 /* Pods_NymeriaUITests.framework */; };
+		83BED732A435450C62EA74E0 /* Pods_NymeriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E129A1B2C5E1A250E52FE3EB /* Pods_NymeriaTests.framework */; };
+		A64466A1A0C70B2316BBBB8B /* Pods_Nymeria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6EBF0DB9B58A7C93B01F1 /* Pods_Nymeria.framework */; };
+		CE1AC4691D8E98910085D6B9 /* NYUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC4681D8E98910085D6B9 /* NYUserSession.swift */; };
+		CE68A0B71D805B1B00FBCEBB /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0AF1D805B1B00FBCEBB /* Field.swift */; };
+		CE68A0B81D805B1B00FBCEBB /* Field+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B01D805B1B00FBCEBB /* Field+CoreDataProperties.swift */; };
+		CE68A0B91D805B1B00FBCEBB /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B11D805B1B00FBCEBB /* Form.swift */; };
+		CE68A0BA1D805B1B00FBCEBB /* Form+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B21D805B1B00FBCEBB /* Form+CoreDataProperties.swift */; };
+		CE68A0BB1D805B1B00FBCEBB /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B31D805B1B00FBCEBB /* Record.swift */; };
+		CE68A0BC1D805B1B00FBCEBB /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B41D805B1B00FBCEBB /* Record+CoreDataProperties.swift */; };
+		CE68A0BD1D805B1B00FBCEBB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B51D805B1B00FBCEBB /* User.swift */; };
+		CE68A0BE1D805B1B00FBCEBB /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A0B61D805B1B00FBCEBB /* User+CoreDataProperties.swift */; };
+		CE8317AE1DA261C5004F4198 /* NYLoadingIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8317AD1DA261C5004F4198 /* NYLoadingIndicator.xib */; };
+		CE9EA7871D803EDF00E46A5C /* Nymeria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9EA7851D803EDF00E46A5C /* Nymeria.xcdatamodeld */; };
+		CEA3BA2B1D7DA5A1005F09AF /* NYOpenFormRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3BA2A1D7DA5A1005F09AF /* NYOpenFormRecordViewController.swift */; };
+		CEA3BA2D1D7DA5F4005F09AF /* NYOpenFormRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3BA2C1D7DA5F4005F09AF /* NYOpenFormRecordView.swift */; };
+		CEA3BA301D7DA61A005F09AF /* NYOpenFormRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA3BA2F1D7DA61A005F09AF /* NYOpenFormRecordView.xib */; };
+		CEF7574C1D802ACD005F3735 /* NYApiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF757461D802ACD005F3735 /* NYApiConnector.swift */; };
+		CEF7574D1D802ACD005F3735 /* NYConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF757471D802ACD005F3735 /* NYConstants.swift */; };
+		CEF7574E1D802ACD005F3735 /* NYDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF757481D802ACD005F3735 /* NYDBManager.swift */; };
+		CEF7574F1D802ACD005F3735 /* NYLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF757491D802ACD005F3735 /* NYLog.swift */; };
+		CEF757501D802ACD005F3735 /* NYPopUpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7574A1D802ACD005F3735 /* NYPopUpManager.swift */; };
+		CEF757511D802ACD005F3735 /* NYUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7574B1D802ACD005F3735 /* NYUtility.swift */; };
+		D301BDA91D4E5A7500A69D3D /* NYICGratefulChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D301BDA81D4E5A7500A69D3D /* NYICGratefulChildView.xib */; };
+		D301BDAB1D4E5AA800A69D3D /* NYICGratefulChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301BDAA1D4E5AA800A69D3D /* NYICGratefulChildView.swift */; };
+		D301BDAD1D4E5AD200A69D3D /* NYICGratefulChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301BDAC1D4E5AD200A69D3D /* NYICGratefulChildViewController.swift */; };
+		D3024CE21D12AE56005BBB99 /* NYSpreadsheetTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3024CE11D12AE56005BBB99 /* NYSpreadsheetTextFieldCell.xib */; };
+		D3024CE41D12AED0005BBB99 /* NYSpreadsheetColHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3024CE31D12AED0005BBB99 /* NYSpreadsheetColHeaderView.xib */; };
+		D3024CE71D12B052005BBB99 /* NYSpreadsheetColHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3024CE61D12B052005BBB99 /* NYSpreadsheetColHeaderView.swift */; };
+		D3024CE91D12B098005BBB99 /* NYSpreadsheetTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3024CE81D12B098005BBB99 /* NYSpreadsheetTextFieldCell.swift */; };
+		D3024CEB1D12B250005BBB99 /* NYSpreadheetFormatTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3024CEA1D12B250005BBB99 /* NYSpreadheetFormatTemplateView.swift */; };
+		D3024CED1D12B28D005BBB99 /* NYBaseSpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3024CEC1D12B28D005BBB99 /* NYBaseSpreadsheetView.swift */; };
+		D307A5361D192AAE001B435B /* NYParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D307A5351D192AAE001B435B /* NYParser.swift */; };
+		D31261641D44A84A000838A0 /* NYRPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31261631D44A84A000838A0 /* NYRPBaseViewController.swift */; };
+		D31261661D44A956000838A0 /* NYRPBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31261651D44A956000838A0 /* NYRPBaseView.swift */; };
+		D312616B1D44CA43000838A0 /* NYRPCapitalFundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31261671D44CA43000838A0 /* NYRPCapitalFundView.xib */; };
+		D312616C1D44CA43000838A0 /* NYRPPensionFundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31261681D44CA43000838A0 /* NYRPPensionFundView.xib */; };
+		D312616D1D44CA43000838A0 /* NYRPRetirementFundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31261691D44CA43000838A0 /* NYRPRetirementFundView.xib */; };
+		D312616E1D44CA43000838A0 /* NYRPSavingsFundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D312616A1D44CA43000838A0 /* NYRPSavingsFundView.xib */; };
+		D31261701D44CA6F000838A0 /* NYEPEducationSpreadsheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D312616F1D44CA6F000838A0 /* NYEPEducationSpreadsheetView.xib */; };
+		D31261721D44CB94000838A0 /* NYEPLifelineEducationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31261711D44CB94000838A0 /* NYEPLifelineEducationView.xib */; };
+		D31261751D44D6A9000838A0 /* NYEPLifelineEducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31261741D44D6A9000838A0 /* NYEPLifelineEducationView.swift */; };
+		D331580F1D05C5B300C7E595 /* LeftMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D331580E1D05C5B300C7E595 /* LeftMenu.plist */; };
+		D3480AEE1D141083001244A0 /* NYEPEducationSpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3480AED1D141083001244A0 /* NYEPEducationSpreadsheetView.swift */; };
+		D3480AF01D1410DA001244A0 /* NYEPEducationSpreadsheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3480AEF1D1410DA001244A0 /* NYEPEducationSpreadsheetViewController.swift */; };
+		D34A37C01D05827E00540AE9 /* NYMenuTableHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34A37BF1D05827E00540AE9 /* NYMenuTableHeaderViewCell.xib */; };
+		D34A37C31D05833E00540AE9 /* NYMenuTableHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A37C21D05833E00540AE9 /* NYMenuTableHeaderViewCell.swift */; };
+		D34A37C51D05838800540AE9 /* NYMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34A37C41D05838800540AE9 /* NYMenuTableViewCell.xib */; };
+		D34A37C71D0583FD00540AE9 /* NYMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A37C61D0583FD00540AE9 /* NYMenuTableViewCell.swift */; };
+		D36A75581D1E70F10075C4A1 /* NYNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36A75571D1E70F10075C4A1 /* NYNavBar.xib */; };
+		D36A755A1D1E71060075C4A1 /* NYNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36A75591D1E71060075C4A1 /* NYNavBar.swift */; };
+		D36A755E1D1EC1B40075C4A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D36A755D1D1EC1B40075C4A1 /* GoogleService-Info.plist */; };
+		D3918BAA1D4DD40E00EEAE22 /* NYICFamilyProviderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3918BA91D4DD40E00EEAE22 /* NYICFamilyProviderView.xib */; };
+		D3918BAC1D4DD7E600EEAE22 /* NYICLovingSpouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3918BAB1D4DD7E600EEAE22 /* NYICLovingSpouseView.swift */; };
+		D3918BAE1D4DD82500EEAE22 /* NYICLovingSpouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3918BAD1D4DD82500EEAE22 /* NYICLovingSpouseViewController.swift */; };
+		D3978C481D03C7FA00E96B4F /* NYBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C471D03C7FA00E96B4F /* NYBaseView.swift */; };
+		D3978C4A1D03C82A00E96B4F /* NYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C491D03C82A00E96B4F /* NYBaseViewController.swift */; };
+		D3978C571D03C90C00E96B4F /* NYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C561D03C90C00E96B4F /* NYTextField.swift */; };
+		D3978C5B1D03C97F00E96B4F /* NYLandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C5A1D03C97F00E96B4F /* NYLandingPageViewController.swift */; };
+		D3978C5D1D03C99C00E96B4F /* NYBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C5C1D03C99C00E96B4F /* NYBaseTableViewController.swift */; };
+		D3978C601D03C9DA00E96B4F /* NYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C5F1D03C9DA00E96B4F /* NYHomeViewController.swift */; };
+		D3978C661D03D05100E96B4F /* NYLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C651D03D05100E96B4F /* NYLandingView.swift */; };
+		D3978C671D03D46700E96B4F /* NYLandingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3978C611D03C9FD00E96B4F /* NYLandingView.xib */; };
+		D3978C691D03D87400E96B4F /* NYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C681D03D87400E96B4F /* NYButton.swift */; };
+		D3978C6B1D03DA5900E96B4F /* NYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C6A1D03DA5900E96B4F /* NYLoginViewController.swift */; };
+		D3978C6D1D03DCB500E96B4F /* NYLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3978C6C1D03DCB500E96B4F /* NYLoginView.xib */; };
+		D3978C6F1D03E2D200E96B4F /* NYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C6E1D03E2D200E96B4F /* NYLoginView.swift */; };
+		D3978C711D03F11500E96B4F /* NYHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3978C701D03F11500E96B4F /* NYHomeView.xib */; };
+		D3978C741D03F17600E96B4F /* NYHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C731D03F17600E96B4F /* NYHomeView.swift */; };
+		D3978C781D04133800E96B4F /* NYMenuRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C771D04133800E96B4F /* NYMenuRootViewController.swift */; };
+		D3978C7A1D04136C00E96B4F /* NYMenuLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C791D04136C00E96B4F /* NYMenuLeftViewController.swift */; };
+		D3978C7C1D0413B600E96B4F /* NYMenuRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C7B1D0413B600E96B4F /* NYMenuRightViewController.swift */; };
+		D3978C7E1D04469C00E96B4F /* NYMenuLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3978C7D1D04469C00E96B4F /* NYMenuLeftView.xib */; };
+		D3978C801D04481500E96B4F /* NYMenuLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C7F1D04481500E96B4F /* NYMenuLeftView.swift */; };
+		D3978C821D044EA300E96B4F /* NYMenuRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3978C811D044EA300E96B4F /* NYMenuRightView.xib */; };
+		D3978C841D044EEF00E96B4F /* NYMenuRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3978C831D044EEF00E96B4F /* NYMenuRightView.swift */; };
+		D3AA0CFE1D2D0DC2002AE3E0 /* NYRPRetirementFundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA0CFC1D2D0DC2002AE3E0 /* NYRPRetirementFundView.swift */; };
+		D3AFA3291D1638F8002510E9 /* NYRPSavingsFundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFA3281D1638F8002510E9 /* NYRPSavingsFundViewController.swift */; };
+		D3AFA32C1D16CB77002510E9 /* NYRPRetirementFundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFA32B1D16CB77002510E9 /* NYRPRetirementFundViewController.swift */; };
+		D3B2D0521D34073B004B9B96 /* NYRPSavingsFundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D0511D34073B004B9B96 /* NYRPSavingsFundView.swift */; };
+		D3B72B771D4F696000E8CA03 /* NYICBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B72B761D4F696000E8CA03 /* NYICBaseViewController.swift */; };
+		D3B72B791D4F6C5300E8CA03 /* NYICBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B72B781D4F6C5300E8CA03 /* NYICBaseView.swift */; };
+		D3B72B7B1D4F71A700E8CA03 /* NYBPDeferredCompensationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B72B7A1D4F71A700E8CA03 /* NYBPDeferredCompensationView.xib */; };
+		D3B72B7D1D4F724E00E8CA03 /* NYBPDeferredCompensationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B72B7C1D4F724E00E8CA03 /* NYBPDeferredCompensationView.swift */; };
+		D3B72B7F1D4F762500E8CA03 /* NYBPDeferredCompensationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B72B7E1D4F762500E8CA03 /* NYBPDeferredCompensationViewController.swift */; };
+		D3B8C0681D103081000603C2 /* NYSpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8C0671D103081000603C2 /* NYSpreadsheetView.swift */; };
+		D3BF96CE1D476E480020F938 /* NYICLovingSpouseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BF96CD1D476E480020F938 /* NYICLovingSpouseView.xib */; };
+		D3C3AA951D0315B400A71047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3AA941D0315B400A71047 /* AppDelegate.swift */; };
+		D3C3AA971D0315B400A71047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3AA961D0315B400A71047 /* ViewController.swift */; };
+		D3C3AA9A1D0315B500A71047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C3AA981D0315B500A71047 /* Main.storyboard */; };
+		D3C3AA9F1D0315B500A71047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C3AA9E1D0315B500A71047 /* Assets.xcassets */; };
+		D3C3AAA21D0315B500A71047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C3AAA01D0315B500A71047 /* LaunchScreen.storyboard */; };
+		D3C3AAAD1D0315B500A71047 /* NymeriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3AAAC1D0315B500A71047 /* NymeriaTests.swift */; };
+		D3C3AAB81D0315B500A71047 /* NymeriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3AAB71D0315B500A71047 /* NymeriaUITests.swift */; };
+		D3C669101D33AEE700E884C1 /* NYRPPensionFundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6690F1D33AEE700E884C1 /* NYRPPensionFundView.swift */; };
+		D3C669121D33AF2E00E884C1 /* NYRPPensionFundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C669111D33AF2E00E884C1 /* NYRPPensionFundViewController.swift */; };
+		D3C8A8E11D1D4FB50084F1E5 /* NYDatePickerToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A8E01D1D4FB50084F1E5 /* NYDatePickerToolBar.swift */; };
+		D3C8A8E31D1D50D40084F1E5 /* NYDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A8E21D1D50D40084F1E5 /* NYDatePicker.swift */; };
+		D3D001501D1ACF03008F56D2 /* NYLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0014F1D1ACF03008F56D2 /* NYLabel.swift */; };
+		D3D7E5DB1D3FACA400139B05 /* NYOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7E5DA1D3FACA400139B05 /* NYOperation.swift */; };
+		D3D7E5DD1D3FAD4900139B05 /* NYParser+Perform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7E5DC1D3FAD4900139B05 /* NYParser+Perform.swift */; };
+		D3D888F41D4CC62E00B5B171 /* NYICFamilyProviderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D888F31D4CC62E00B5B171 /* NYICFamilyProviderView.swift */; };
+		D3D888F61D4CC78B00B5B171 /* NYICFamilyProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D888F51D4CC78B00B5B171 /* NYICFamilyProviderViewController.swift */; };
+		D3EE25921D2FE1AC00B2C8EC /* Modules.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EE25911D2FE1AC00B2C8EC /* Modules.xcassets */; };
+		D3F4C05A1D088854007B97D6 /* NYBaseSpreadsheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C0591D088854007B97D6 /* NYBaseSpreadsheetController.swift */; };
+		D3F4C05C1D0888C9007B97D6 /* NYEPLifelineEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C05B1D0888C9007B97D6 /* NYEPLifelineEducationViewController.swift */; };
+		D3F81E701D34674100CC73C4 /* NYRPCapitalFundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F81E6F1D34674100CC73C4 /* NYRPCapitalFundView.swift */; };
+		D3F81E721D34679300CC73C4 /* NYRPCapitalFundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F81E711D34679300CC73C4 /* NYRPCapitalFundViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C3AAA91D0315B500A71047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C3AA891D0315B100A71047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C3AA901D0315B100A71047;
+			remoteInfo = Nymeria;
+		};
+		D3C3AAB41D0315B500A71047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C3AA891D0315B100A71047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C3AA901D0315B100A71047;
+			remoteInfo = Nymeria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04041E0F1D50D777007AD374 /* NYProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYProfileView.xib; path = Xibs/NYProfileView.xib; sourceTree = "<group>"; };
+		04041E111D50D7CD007AD374 /* NYProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYProfileView.swift; path = Views/NYProfileView.swift; sourceTree = "<group>"; };
+		04041E131D50D8CE007AD374 /* NYProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYProfileViewController.swift; path = ViewControllers/NYProfileViewController.swift; sourceTree = "<group>"; };
+		041C82D21D277AC1003D16DC /* NYBPBusinessPlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPBusinessPlanningViewController.swift; path = ViewControllers/NYBPBusinessPlanningViewController.swift; sourceTree = "<group>"; };
+		041C82D51D277BBE003D16DC /* NYBPBusinessPlanningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPBusinessPlanningView.swift; path = Views/BusinessPlanning/NYBPBusinessPlanningView.swift; sourceTree = "<group>"; };
+		041C82D81D277C67003D16DC /* NYBPBusinessPlanningView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYBPBusinessPlanningView.xib; path = Xibs/NYBPBusinessPlanningView.xib; sourceTree = "<group>"; };
+		041E61841D443C9300FA3031 /* NYPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYPickerView.swift; path = Views/CustomViews/NYPickerView.swift; sourceTree = "<group>"; };
+		041E61861D443F6500FA3031 /* NYPickerViewToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYPickerViewToolbar.swift; path = Views/MiscellaneousIdeas/NYPickerViewToolbar.swift; sourceTree = "<group>"; };
+		041F5D0C1D31E95B007E70CD /* NYMITermConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMITermConversionViewController.swift; path = ViewControllers/NYMITermConversionViewController.swift; sourceTree = "<group>"; };
+		041F5D121D31EA1D007E70CD /* NYMIBenefitSellingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIBenefitSellingViewController.swift; path = ViewControllers/NYMIBenefitSellingViewController.swift; sourceTree = "<group>"; };
+		041F5D141D31EA67007E70CD /* NYMIComparativeAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIComparativeAnalysisViewController.swift; path = ViewControllers/NYMIComparativeAnalysisViewController.swift; sourceTree = "<group>"; };
+		041F5D1A1D31EB23007E70CD /* NYMIPesoDollarInvestmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIPesoDollarInvestmentViewController.swift; path = ViewControllers/NYMIPesoDollarInvestmentViewController.swift; sourceTree = "<group>"; };
+		041F5D1E1D31ED9F007E70CD /* NYMITermConversionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMITermConversionView.xib; path = Xibs/NYMITermConversionView.xib; sourceTree = "<group>"; };
+		041F5D201D31EE87007E70CD /* NYMIBenefitSellingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMIBenefitSellingView.xib; path = Xibs/NYMIBenefitSellingView.xib; sourceTree = "<group>"; };
+		041F5D211D31EE87007E70CD /* NYMIComparativeAnalysisView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMIComparativeAnalysisView.xib; path = Xibs/NYMIComparativeAnalysisView.xib; sourceTree = "<group>"; };
+		041F5D221D31EE87007E70CD /* NYMIPesoDollarInvestmentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMIPesoDollarInvestmentView.xib; path = Xibs/NYMIPesoDollarInvestmentView.xib; sourceTree = "<group>"; };
+		0440D1581DE93F4900B0ED7B /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		0440D1591DE93F4900B0ED7B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0440D15A1DE93F4900B0ED7B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		0440D15B1DE93F4900B0ED7B /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0440D15C1DE93F4900B0ED7B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		0440D15D1DE93F4900B0ED7B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		0440D15E1DE93F4900B0ED7B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		0440D15F1DE93F4900B0ED7B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0440D1601DE93F4900B0ED7B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0440D1611DE93F4900B0ED7B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0440D1621DE93F4900B0ED7B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		0440D1631DE93F4900B0ED7B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0440D1641DE93F4900B0ED7B /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		0440D1651DE93F4900B0ED7B /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0440D1661DE93F4900B0ED7B /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		0440D1671DE93F4900B0ED7B /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		0440D1681DE93F4900B0ED7B /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		0440D1691DE93F4900B0ED7B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		046DF5531D27D3C60025D126 /* NYBPBusinessValuationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPBusinessValuationViewController.swift; path = ViewControllers/NYBPBusinessValuationViewController.swift; sourceTree = "<group>"; };
+		046DF5551D27D3E90025D126 /* NYBPBusinessValuationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPBusinessValuationView.swift; path = Views/BusinessPlanning/NYBPBusinessValuationView.swift; sourceTree = "<group>"; };
+		046DF5571D27D4050025D126 /* NYBPBusinessValuationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYBPBusinessValuationView.xib; path = Xibs/NYBPBusinessValuationView.xib; sourceTree = "<group>"; };
+		048627BF1D0841D000F014BD /* NYSignupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYSignupView.xib; path = Xibs/NYSignupView.xib; sourceTree = "<group>"; };
+		048627C11D08449800F014BD /* NYSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSignupView.swift; path = Views/NYSignupView.swift; sourceTree = "<group>"; };
+		048627C31D08472100F014BD /* NYSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSignupViewController.swift; path = ViewControllers/NYSignupViewController.swift; sourceTree = "<group>"; };
+		048711191D2E7D01005531A9 /* NYEPEstateConservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPEstateConservationViewController.swift; path = ViewControllers/NYEPEstateConservationViewController.swift; sourceTree = "<group>"; };
+		04B2356F1D30DD25008BD36A /* NYEPEstateAvoidanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPEstateAvoidanceViewController.swift; path = ViewControllers/NYEPEstateAvoidanceViewController.swift; sourceTree = "<group>"; };
+		04B235711D30F6B5008BD36A /* NYEPEstatePlanningView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYEPEstatePlanningView.xib; path = Xibs/NYEPEstatePlanningView.xib; sourceTree = "<group>"; };
+		04B235731D30F708008BD36A /* NYEPEstatePlanningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPEstatePlanningView.swift; path = Views/NYEPEstatePlanningView.swift; sourceTree = "<group>"; };
+		04DBA1321D339563008DB6A0 /* NYMIBenefitSellingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIBenefitSellingView.swift; path = Views/MiscellaneousIdeas/NYMIBenefitSellingView.swift; sourceTree = "<group>"; };
+		04DBA1331D339563008DB6A0 /* NYMIComparativeAnalysisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIComparativeAnalysisView.swift; path = Views/MiscellaneousIdeas/NYMIComparativeAnalysisView.swift; sourceTree = "<group>"; };
+		04DBA1341D339563008DB6A0 /* NYMIPesoDollarInvestmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMIPesoDollarInvestmentView.swift; path = Views/MiscellaneousIdeas/NYMIPesoDollarInvestmentView.swift; sourceTree = "<group>"; };
+		04DBA1351D339563008DB6A0 /* NYMITermConversionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMITermConversionView.swift; path = Views/MiscellaneousIdeas/NYMITermConversionView.swift; sourceTree = "<group>"; };
+		04E08C1A1D2BC6110044B3D9 /* NYBPGroupRetirementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYBPGroupRetirementView.xib; path = Xibs/NYBPGroupRetirementView.xib; sourceTree = "<group>"; };
+		04E08C1C1D2BCE990044B3D9 /* NYBPGroupRetirementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPGroupRetirementView.swift; path = Views/BusinessPlanning/NYBPGroupRetirementView.swift; sourceTree = "<group>"; };
+		04E08C1E1D2BCF360044B3D9 /* NYBPGroupRetirementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPGroupRetirementViewController.swift; path = ViewControllers/NYBPGroupRetirementViewController.swift; sourceTree = "<group>"; };
+		1AC55D4727CC6AFD520C3D64 /* Pods-NymeriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymeriaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9D269B7ABC4A2FB79EA32A /* Pods-Nymeria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nymeria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria.release.xcconfig"; sourceTree = "<group>"; };
+		62114AF1F1D4BC5E6E81AEC6 /* Pods-NymeriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymeriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AF838C6F96C526933FED2C6 /* Pods-NymeriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymeriaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NymeriaUITests/Pods-NymeriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8933DAB007EB7B25CFEAB7D9 /* Pods_NymeriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NymeriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1AC4681D8E98910085D6B9 /* NYUserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYUserSession.swift; path = Helpers/NYUserSession.swift; sourceTree = "<group>"; };
+		CE68A0AF1D805B1B00FBCEBB /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Field.swift; path = Database/Models/Field.swift; sourceTree = "<group>"; };
+		CE68A0B01D805B1B00FBCEBB /* Field+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Field+CoreDataProperties.swift"; path = "Database/Models/Field+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE68A0B11D805B1B00FBCEBB /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Database/Models/Form.swift; sourceTree = "<group>"; };
+		CE68A0B21D805B1B00FBCEBB /* Form+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Form+CoreDataProperties.swift"; path = "Database/Models/Form+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE68A0B31D805B1B00FBCEBB /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Record.swift; path = Database/Models/Record.swift; sourceTree = "<group>"; };
+		CE68A0B41D805B1B00FBCEBB /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Record+CoreDataProperties.swift"; path = "Database/Models/Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE68A0B51D805B1B00FBCEBB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Database/Models/User.swift; sourceTree = "<group>"; };
+		CE68A0B61D805B1B00FBCEBB /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "Database/Models/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE8317AD1DA261C5004F4198 /* NYLoadingIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYLoadingIndicator.xib; path = Views/CustomViews/NYLoadingIndicator.xib; sourceTree = "<group>"; };
+		CE9EA7861D803EDF00E46A5C /* Nymeria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nymeria.xcdatamodel; sourceTree = "<group>"; };
+		CEA3BA2A1D7DA5A1005F09AF /* NYOpenFormRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYOpenFormRecordViewController.swift; path = "ViewControllers/CRUD Form Data/NYOpenFormRecordViewController.swift"; sourceTree = "<group>"; };
+		CEA3BA2C1D7DA5F4005F09AF /* NYOpenFormRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYOpenFormRecordView.swift; path = "Views/CRUD Form Data/NYOpenFormRecordView.swift"; sourceTree = "<group>"; };
+		CEA3BA2F1D7DA61A005F09AF /* NYOpenFormRecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYOpenFormRecordView.xib; path = "Xibs/CRUD Form Data/NYOpenFormRecordView.xib"; sourceTree = "<group>"; };
+		CEF757461D802ACD005F3735 /* NYApiConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYApiConnector.swift; path = Helpers/NYApiConnector.swift; sourceTree = "<group>"; };
+		CEF757471D802ACD005F3735 /* NYConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYConstants.swift; path = Helpers/NYConstants.swift; sourceTree = "<group>"; };
+		CEF757481D802ACD005F3735 /* NYDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYDBManager.swift; path = Helpers/NYDBManager.swift; sourceTree = "<group>"; };
+		CEF757491D802ACD005F3735 /* NYLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLog.swift; path = Helpers/NYLog.swift; sourceTree = "<group>"; };
+		CEF7574A1D802ACD005F3735 /* NYPopUpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYPopUpManager.swift; path = Helpers/NYPopUpManager.swift; sourceTree = "<group>"; };
+		CEF7574B1D802ACD005F3735 /* NYUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYUtility.swift; path = Helpers/NYUtility.swift; sourceTree = "<group>"; };
+		D301BDA81D4E5A7500A69D3D /* NYICGratefulChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYICGratefulChildView.xib; path = "Xibs/Income Continuity/NYICGratefulChildView.xib"; sourceTree = "<group>"; };
+		D301BDAA1D4E5AA800A69D3D /* NYICGratefulChildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICGratefulChildView.swift; path = Views/IncomeContinuity/NYICGratefulChildView.swift; sourceTree = "<group>"; };
+		D301BDAC1D4E5AD200A69D3D /* NYICGratefulChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICGratefulChildViewController.swift; path = ViewControllers/IncomeContinuity/NYICGratefulChildViewController.swift; sourceTree = "<group>"; };
+		D3024CE11D12AE56005BBB99 /* NYSpreadsheetTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYSpreadsheetTextFieldCell.xib; path = Xibs/NYSpreadsheetTextFieldCell.xib; sourceTree = "<group>"; };
+		D3024CE31D12AED0005BBB99 /* NYSpreadsheetColHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYSpreadsheetColHeaderView.xib; path = Xibs/NYSpreadsheetColHeaderView.xib; sourceTree = "<group>"; };
+		D3024CE61D12B052005BBB99 /* NYSpreadsheetColHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSpreadsheetColHeaderView.swift; path = Views/NYSpreadsheetColHeaderView.swift; sourceTree = "<group>"; };
+		D3024CE81D12B098005BBB99 /* NYSpreadsheetTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSpreadsheetTextFieldCell.swift; path = Views/NYSpreadsheetTextFieldCell.swift; sourceTree = "<group>"; };
+		D3024CEA1D12B250005BBB99 /* NYSpreadheetFormatTemplateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSpreadheetFormatTemplateView.swift; path = Views/NYSpreadheetFormatTemplateView.swift; sourceTree = "<group>"; };
+		D3024CEC1D12B28D005BBB99 /* NYBaseSpreadsheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYBaseSpreadsheetView.swift; sourceTree = "<group>"; };
+		D307A5351D192AAE001B435B /* NYParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYParser.swift; path = ComputationClasses/NYParser.swift; sourceTree = "<group>"; };
+		D31261631D44A84A000838A0 /* NYRPBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPBaseViewController.swift; path = RetirementPlanning/NYRPBaseViewController.swift; sourceTree = "<group>"; };
+		D31261651D44A956000838A0 /* NYRPBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPBaseView.swift; path = Views/RetirementPlanning/NYRPBaseView.swift; sourceTree = "<group>"; };
+		D31261671D44CA43000838A0 /* NYRPCapitalFundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYRPCapitalFundView.xib; path = "Xibs/Retirement Planning/NYRPCapitalFundView.xib"; sourceTree = "<group>"; };
+		D31261681D44CA43000838A0 /* NYRPPensionFundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYRPPensionFundView.xib; path = "Xibs/Retirement Planning/NYRPPensionFundView.xib"; sourceTree = "<group>"; };
+		D31261691D44CA43000838A0 /* NYRPRetirementFundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYRPRetirementFundView.xib; path = "Xibs/Retirement Planning/NYRPRetirementFundView.xib"; sourceTree = "<group>"; };
+		D312616A1D44CA43000838A0 /* NYRPSavingsFundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYRPSavingsFundView.xib; path = "Xibs/Retirement Planning/NYRPSavingsFundView.xib"; sourceTree = "<group>"; };
+		D312616F1D44CA6F000838A0 /* NYEPEducationSpreadsheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYEPEducationSpreadsheetView.xib; path = "Xibs/Education Planning/NYEPEducationSpreadsheetView.xib"; sourceTree = "<group>"; };
+		D31261711D44CB94000838A0 /* NYEPLifelineEducationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYEPLifelineEducationView.xib; path = "Xibs/Education Planning/NYEPLifelineEducationView.xib"; sourceTree = "<group>"; };
+		D31261741D44D6A9000838A0 /* NYEPLifelineEducationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPLifelineEducationView.swift; path = Views/EducationalPlanning/NYEPLifelineEducationView.swift; sourceTree = "<group>"; };
+		D331580E1D05C5B300C7E595 /* LeftMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LeftMenu.plist; path = Plists/LeftMenu.plist; sourceTree = "<group>"; };
+		D3480AED1D141083001244A0 /* NYEPEducationSpreadsheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPEducationSpreadsheetView.swift; path = Views/NYEPEducationSpreadsheetView.swift; sourceTree = "<group>"; };
+		D3480AEF1D1410DA001244A0 /* NYEPEducationSpreadsheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPEducationSpreadsheetViewController.swift; path = ViewControllers/NYEPEducationSpreadsheetViewController.swift; sourceTree = "<group>"; };
+		D34A37BF1D05827E00540AE9 /* NYMenuTableHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMenuTableHeaderViewCell.xib; path = Xibs/NYMenuTableHeaderViewCell.xib; sourceTree = "<group>"; };
+		D34A37C21D05833E00540AE9 /* NYMenuTableHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuTableHeaderViewCell.swift; path = Views/NYMenuTableHeaderViewCell.swift; sourceTree = "<group>"; };
+		D34A37C41D05838800540AE9 /* NYMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMenuTableViewCell.xib; path = Xibs/NYMenuTableViewCell.xib; sourceTree = "<group>"; };
+		D34A37C61D0583FD00540AE9 /* NYMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuTableViewCell.swift; path = Views/NYMenuTableViewCell.swift; sourceTree = "<group>"; };
+		D36692ED1D07AA7A00048820 /* ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ObjC-Bridging-Header.h"; path = "Nymeria/ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		D36A75571D1E70F10075C4A1 /* NYNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYNavBar.xib; path = Xibs/CustomViews/NYNavBar.xib; sourceTree = "<group>"; };
+		D36A75591D1E71060075C4A1 /* NYNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYNavBar.swift; path = Views/CustomViews/NYNavBar.swift; sourceTree = "<group>"; };
+		D36A755D1D1EC1B40075C4A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Nymeria/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3918BA91D4DD40E00EEAE22 /* NYICFamilyProviderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYICFamilyProviderView.xib; path = "Xibs/Income Continuity/NYICFamilyProviderView.xib"; sourceTree = "<group>"; };
+		D3918BAB1D4DD7E600EEAE22 /* NYICLovingSpouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICLovingSpouseView.swift; path = Views/IncomeContinuity/NYICLovingSpouseView.swift; sourceTree = "<group>"; };
+		D3918BAD1D4DD82500EEAE22 /* NYICLovingSpouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICLovingSpouseViewController.swift; path = Views/IncomeContinuity/NYICLovingSpouseViewController.swift; sourceTree = "<group>"; };
+		D3978C471D03C7FA00E96B4F /* NYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBaseView.swift; path = Views/NYBaseView.swift; sourceTree = "<group>"; };
+		D3978C491D03C82A00E96B4F /* NYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBaseViewController.swift; path = ViewControllers/NYBaseViewController.swift; sourceTree = "<group>"; };
+		D3978C561D03C90C00E96B4F /* NYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYTextField.swift; path = Views/NYTextField.swift; sourceTree = "<group>"; };
+		D3978C5A1D03C97F00E96B4F /* NYLandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLandingPageViewController.swift; path = ViewControllers/NYLandingPageViewController.swift; sourceTree = "<group>"; };
+		D3978C5C1D03C99C00E96B4F /* NYBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBaseTableViewController.swift; path = ViewControllers/NYBaseTableViewController.swift; sourceTree = "<group>"; };
+		D3978C5F1D03C9DA00E96B4F /* NYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYHomeViewController.swift; path = ViewControllers/NYHomeViewController.swift; sourceTree = "<group>"; };
+		D3978C611D03C9FD00E96B4F /* NYLandingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYLandingView.xib; path = Xibs/NYLandingView.xib; sourceTree = "<group>"; };
+		D3978C651D03D05100E96B4F /* NYLandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLandingView.swift; path = Views/NYLandingView.swift; sourceTree = "<group>"; };
+		D3978C681D03D87400E96B4F /* NYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYButton.swift; path = Views/NYButton.swift; sourceTree = "<group>"; };
+		D3978C6A1D03DA5900E96B4F /* NYLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLoginViewController.swift; path = ViewControllers/NYLoginViewController.swift; sourceTree = "<group>"; };
+		D3978C6C1D03DCB500E96B4F /* NYLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYLoginView.xib; path = Xibs/NYLoginView.xib; sourceTree = "<group>"; };
+		D3978C6E1D03E2D200E96B4F /* NYLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLoginView.swift; path = Views/NYLoginView.swift; sourceTree = "<group>"; };
+		D3978C701D03F11500E96B4F /* NYHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYHomeView.xib; path = Xibs/NYHomeView.xib; sourceTree = "<group>"; };
+		D3978C731D03F17600E96B4F /* NYHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYHomeView.swift; path = Views/NYHomeView.swift; sourceTree = "<group>"; };
+		D3978C771D04133800E96B4F /* NYMenuRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuRootViewController.swift; path = ViewControllers/NYMenuRootViewController.swift; sourceTree = "<group>"; };
+		D3978C791D04136C00E96B4F /* NYMenuLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuLeftViewController.swift; path = ViewControllers/NYMenuLeftViewController.swift; sourceTree = "<group>"; };
+		D3978C7B1D0413B600E96B4F /* NYMenuRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuRightViewController.swift; path = ViewControllers/NYMenuRightViewController.swift; sourceTree = "<group>"; };
+		D3978C7D1D04469C00E96B4F /* NYMenuLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMenuLeftView.xib; path = Xibs/NYMenuLeftView.xib; sourceTree = "<group>"; };
+		D3978C7F1D04481500E96B4F /* NYMenuLeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuLeftView.swift; path = Views/NYMenuLeftView.swift; sourceTree = "<group>"; };
+		D3978C811D044EA300E96B4F /* NYMenuRightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYMenuRightView.xib; path = Xibs/NYMenuRightView.xib; sourceTree = "<group>"; };
+		D3978C831D044EEF00E96B4F /* NYMenuRightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYMenuRightView.swift; path = Views/NYMenuRightView.swift; sourceTree = "<group>"; };
+		D3AA0CFC1D2D0DC2002AE3E0 /* NYRPRetirementFundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPRetirementFundView.swift; path = Views/RetirementPlanning/NYRPRetirementFundView.swift; sourceTree = "<group>"; };
+		D3AFA3281D1638F8002510E9 /* NYRPSavingsFundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPSavingsFundViewController.swift; path = RetirementPlanning/NYRPSavingsFundViewController.swift; sourceTree = "<group>"; };
+		D3AFA32B1D16CB77002510E9 /* NYRPRetirementFundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPRetirementFundViewController.swift; path = ViewControllers/NYRPRetirementFundViewController.swift; sourceTree = "<group>"; };
+		D3B2D0511D34073B004B9B96 /* NYRPSavingsFundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPSavingsFundView.swift; path = Views/RetirementPlanning/NYRPSavingsFundView.swift; sourceTree = "<group>"; };
+		D3B72B761D4F696000E8CA03 /* NYICBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICBaseViewController.swift; path = ViewControllers/IncomeContinuity/NYICBaseViewController.swift; sourceTree = "<group>"; };
+		D3B72B781D4F6C5300E8CA03 /* NYICBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICBaseView.swift; path = Views/IncomeContinuity/NYICBaseView.swift; sourceTree = "<group>"; };
+		D3B72B7A1D4F71A700E8CA03 /* NYBPDeferredCompensationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYBPDeferredCompensationView.xib; path = Xibs/BusinessPlanning/NYBPDeferredCompensationView.xib; sourceTree = "<group>"; };
+		D3B72B7C1D4F724E00E8CA03 /* NYBPDeferredCompensationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPDeferredCompensationView.swift; path = Views/BusinessPlanning/NYBPDeferredCompensationView.swift; sourceTree = "<group>"; };
+		D3B72B7E1D4F762500E8CA03 /* NYBPDeferredCompensationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBPDeferredCompensationViewController.swift; path = BusinessPlanning/NYBPDeferredCompensationViewController.swift; sourceTree = "<group>"; };
+		D3B8C0671D103081000603C2 /* NYSpreadsheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYSpreadsheetView.swift; path = Views/NYSpreadsheetView.swift; sourceTree = "<group>"; };
+		D3BF96CD1D476E480020F938 /* NYICLovingSpouseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NYICLovingSpouseView.xib; path = "Xibs/Income Continuity/NYICLovingSpouseView.xib"; sourceTree = "<group>"; };
+		D3C3AA911D0315B100A71047 /* FB101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FB101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C3AA941D0315B400A71047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C3AA961D0315B400A71047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C3AA991D0315B500A71047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C3AA9E1D0315B500A71047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C3AAA11D0315B500A71047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C3AAA31D0315B500A71047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C3AAA81D0315B500A71047 /* NymeriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NymeriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C3AAAC1D0315B500A71047 /* NymeriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NymeriaTests.swift; sourceTree = "<group>"; };
+		D3C3AAAE1D0315B500A71047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C3AAB31D0315B500A71047 /* NymeriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NymeriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C3AAB71D0315B500A71047 /* NymeriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NymeriaUITests.swift; sourceTree = "<group>"; };
+		D3C3AAB91D0315B500A71047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C6690F1D33AEE700E884C1 /* NYRPPensionFundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPPensionFundView.swift; path = Views/RetirementPlanning/NYRPPensionFundView.swift; sourceTree = "<group>"; };
+		D3C669111D33AF2E00E884C1 /* NYRPPensionFundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPPensionFundViewController.swift; path = RetirementPlanning/NYRPPensionFundViewController.swift; sourceTree = "<group>"; };
+		D3C8A8E01D1D4FB50084F1E5 /* NYDatePickerToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYDatePickerToolBar.swift; path = Views/CustomViews/NYDatePickerToolBar.swift; sourceTree = "<group>"; };
+		D3C8A8E21D1D50D40084F1E5 /* NYDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYDatePicker.swift; path = Views/CustomViews/NYDatePicker.swift; sourceTree = "<group>"; };
+		D3D0014F1D1ACF03008F56D2 /* NYLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYLabel.swift; path = Views/NYLabel.swift; sourceTree = "<group>"; };
+		D3D7E5DA1D3FACA400139B05 /* NYOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYOperation.swift; path = ComputationClasses/NYOperation.swift; sourceTree = "<group>"; };
+		D3D7E5DC1D3FAD4900139B05 /* NYParser+Perform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NYParser+Perform.swift"; path = "ComputationClasses/NYParser+Perform.swift"; sourceTree = "<group>"; };
+		D3D888F31D4CC62E00B5B171 /* NYICFamilyProviderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICFamilyProviderView.swift; path = Views/IncomeContinuity/NYICFamilyProviderView.swift; sourceTree = "<group>"; };
+		D3D888F51D4CC78B00B5B171 /* NYICFamilyProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYICFamilyProviderViewController.swift; path = ViewControllers/IncomeContinuity/NYICFamilyProviderViewController.swift; sourceTree = "<group>"; };
+		D3EE25911D2FE1AC00B2C8EC /* Modules.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Modules.xcassets; sourceTree = "<group>"; };
+		D3F4C0591D088854007B97D6 /* NYBaseSpreadsheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYBaseSpreadsheetController.swift; path = ViewControllers/NYBaseSpreadsheetController.swift; sourceTree = "<group>"; };
+		D3F4C05B1D0888C9007B97D6 /* NYEPLifelineEducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYEPLifelineEducationViewController.swift; path = ViewControllers/NYEPLifelineEducationViewController.swift; sourceTree = "<group>"; };
+		D3F81E6F1D34674100CC73C4 /* NYRPCapitalFundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPCapitalFundView.swift; path = Views/RetirementPlanning/NYRPCapitalFundView.swift; sourceTree = "<group>"; };
+		D3F81E711D34679300CC73C4 /* NYRPCapitalFundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYRPCapitalFundViewController.swift; path = RetirementPlanning/NYRPCapitalFundViewController.swift; sourceTree = "<group>"; };
+		D4A4C48240B278ECD1FA9B2A /* Pods-NymeriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymeriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NymeriaUITests/Pods-NymeriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDD6EBF0DB9B58A7C93B01F1 /* Pods_Nymeria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nymeria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E129A1B2C5E1A250E52FE3EB /* Pods_NymeriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NymeriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37E88C491332BA35FC07197 /* Pods-Nymeria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nymeria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C3AA8E1D0315B100A71047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64466A1A0C70B2316BBBB8B /* Pods_Nymeria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAA51D0315B500A71047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BED732A435450C62EA74E0 /* Pods_NymeriaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAB01D0315B500A71047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7FD4676E1E2C5C40F69D11 /* Pods_NymeriaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041C82D11D277A24003D16DC /* Business Planning */ = {
+			isa = PBXGroup;
+			children = (
+				041C82D21D277AC1003D16DC /* NYBPBusinessPlanningViewController.swift */,
+				046DF5531D27D3C60025D126 /* NYBPBusinessValuationViewController.swift */,
+				04E08C1E1D2BCF360044B3D9 /* NYBPGroupRetirementViewController.swift */,
+				D3B72B7E1D4F762500E8CA03 /* NYBPDeferredCompensationViewController.swift */,
+			);
+			name = "Business Planning";
+			sourceTree = "<group>";
+		};
+		041C82D41D277B8A003D16DC /* Business Planning */ = {
+			isa = PBXGroup;
+			children = (
+				041C82D51D277BBE003D16DC /* NYBPBusinessPlanningView.swift */,
+				046DF5551D27D3E90025D126 /* NYBPBusinessValuationView.swift */,
+				04E08C1C1D2BCE990044B3D9 /* NYBPGroupRetirementView.swift */,
+				D3B72B7C1D4F724E00E8CA03 /* NYBPDeferredCompensationView.swift */,
+			);
+			name = "Business Planning";
+			sourceTree = "<group>";
+		};
+		041C82D71D277C45003D16DC /* Business Planning */ = {
+			isa = PBXGroup;
+			children = (
+				041C82D81D277C67003D16DC /* NYBPBusinessPlanningView.xib */,
+				046DF5571D27D4050025D126 /* NYBPBusinessValuationView.xib */,
+				04E08C1A1D2BC6110044B3D9 /* NYBPGroupRetirementView.xib */,
+				D3B72B7A1D4F71A700E8CA03 /* NYBPDeferredCompensationView.xib */,
+			);
+			name = "Business Planning";
+			sourceTree = "<group>";
+		};
+		041F5D091D31E912007E70CD /* Miscellaneous Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				041F5D1E1D31ED9F007E70CD /* NYMITermConversionView.xib */,
+				041F5D201D31EE87007E70CD /* NYMIBenefitSellingView.xib */,
+				041F5D211D31EE87007E70CD /* NYMIComparativeAnalysisView.xib */,
+				041F5D221D31EE87007E70CD /* NYMIPesoDollarInvestmentView.xib */,
+			);
+			name = "Miscellaneous Ideas";
+			sourceTree = "<group>";
+		};
+		041F5D0A1D31E923007E70CD /* Miscellaneous Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				04DBA1321D339563008DB6A0 /* NYMIBenefitSellingView.swift */,
+				04DBA1331D339563008DB6A0 /* NYMIComparativeAnalysisView.swift */,
+				04DBA1341D339563008DB6A0 /* NYMIPesoDollarInvestmentView.swift */,
+				04DBA1351D339563008DB6A0 /* NYMITermConversionView.swift */,
+			);
+			name = "Miscellaneous Ideas";
+			sourceTree = "<group>";
+		};
+		041F5D0B1D31E933007E70CD /* Miscellaneous Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				041F5D0C1D31E95B007E70CD /* NYMITermConversionViewController.swift */,
+				041F5D121D31EA1D007E70CD /* NYMIBenefitSellingViewController.swift */,
+				041F5D141D31EA67007E70CD /* NYMIComparativeAnalysisViewController.swift */,
+				041F5D1A1D31EB23007E70CD /* NYMIPesoDollarInvestmentViewController.swift */,
+			);
+			name = "Miscellaneous Ideas";
+			sourceTree = "<group>";
+		};
+		0440D1571DE93F2600B0ED7B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0440D1581DE93F4900B0ED7B /* Roboto-Black.ttf */,
+				0440D1591DE93F4900B0ED7B /* Roboto-BlackItalic.ttf */,
+				0440D15A1DE93F4900B0ED7B /* Roboto-Bold.ttf */,
+				0440D15B1DE93F4900B0ED7B /* Roboto-BoldItalic.ttf */,
+				0440D15C1DE93F4900B0ED7B /* Roboto-Italic.ttf */,
+				0440D15D1DE93F4900B0ED7B /* Roboto-Light.ttf */,
+				0440D15E1DE93F4900B0ED7B /* Roboto-LightItalic.ttf */,
+				0440D15F1DE93F4900B0ED7B /* Roboto-Medium.ttf */,
+				0440D1601DE93F4900B0ED7B /* Roboto-MediumItalic.ttf */,
+				0440D1611DE93F4900B0ED7B /* Roboto-Regular.ttf */,
+				0440D1621DE93F4900B0ED7B /* Roboto-Thin.ttf */,
+				0440D1631DE93F4900B0ED7B /* Roboto-ThinItalic.ttf */,
+				0440D1641DE93F4900B0ED7B /* RobotoCondensed-Bold.ttf */,
+				0440D1651DE93F4900B0ED7B /* RobotoCondensed-BoldItalic.ttf */,
+				0440D1661DE93F4900B0ED7B /* RobotoCondensed-Italic.ttf */,
+				0440D1671DE93F4900B0ED7B /* RobotoCondensed-Light.ttf */,
+				0440D1681DE93F4900B0ED7B /* RobotoCondensed-LightItalic.ttf */,
+				0440D1691DE93F4900B0ED7B /* RobotoCondensed-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		048711141D2E7BC4005531A9 /* Estate Conservation Planning */ = {
+			isa = PBXGroup;
+			children = (
+				04B235711D30F6B5008BD36A /* NYEPEstatePlanningView.xib */,
+			);
+			name = "Estate Conservation Planning";
+			sourceTree = "<group>";
+		};
+		048711171D2E7CBF005531A9 /* Estate Conservation Planning */ = {
+			isa = PBXGroup;
+			children = (
+				04B235731D30F708008BD36A /* NYEPEstatePlanningView.swift */,
+			);
+			name = "Estate Conservation Planning";
+			sourceTree = "<group>";
+		};
+		048711181D2E7CCB005531A9 /* Estate Conservation Planning */ = {
+			isa = PBXGroup;
+			children = (
+				048711191D2E7D01005531A9 /* NYEPEstateConservationViewController.swift */,
+				04B2356F1D30DD25008BD36A /* NYEPEstateAvoidanceViewController.swift */,
+			);
+			name = "Estate Conservation Planning";
+			sourceTree = "<group>";
+		};
+		339C1F910161CDED5B915175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6EBF0DB9B58A7C93B01F1 /* Pods_Nymeria.framework */,
+				E129A1B2C5E1A250E52FE3EB /* Pods_NymeriaTests.framework */,
+				8933DAB007EB7B25CFEAB7D9 /* Pods_NymeriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A179801DD1714B9082E64D5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88C491332BA35FC07197 /* Pods-Nymeria.debug.xcconfig */,
+				2B9D269B7ABC4A2FB79EA32A /* Pods-Nymeria.release.xcconfig */,
+				1AC55D4727CC6AFD520C3D64 /* Pods-NymeriaTests.debug.xcconfig */,
+				62114AF1F1D4BC5E6E81AEC6 /* Pods-NymeriaTests.release.xcconfig */,
+				7AF838C6F96C526933FED2C6 /* Pods-NymeriaUITests.debug.xcconfig */,
+				D4A4C48240B278ECD1FA9B2A /* Pods-NymeriaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEA3BA281D7DA513005F09AF /* CRUD Module Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA2C1D7DA5F4005F09AF /* NYOpenFormRecordView.swift */,
+			);
+			name = "CRUD Module Data";
+			sourceTree = "<group>";
+		};
+		CEA3BA291D7DA537005F09AF /* CRUD Module Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA2A1D7DA5A1005F09AF /* NYOpenFormRecordViewController.swift */,
+			);
+			name = "CRUD Module Data";
+			sourceTree = "<group>";
+		};
+		CEA3BA2E1D7DA5FB005F09AF /* CRUD Form Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA2F1D7DA61A005F09AF /* NYOpenFormRecordView.xib */,
+			);
+			name = "CRUD Form Data";
+			sourceTree = "<group>";
+		};
+		CEF756F31D80177E005F3735 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CEF756F71D801881005F3735 /* Models */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		CEF756F71D801881005F3735 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A0AF1D805B1B00FBCEBB /* Field.swift */,
+				CE68A0B01D805B1B00FBCEBB /* Field+CoreDataProperties.swift */,
+				CE68A0B11D805B1B00FBCEBB /* Form.swift */,
+				CE68A0B21D805B1B00FBCEBB /* Form+CoreDataProperties.swift */,
+				CE68A0B31D805B1B00FBCEBB /* Record.swift */,
+				CE68A0B41D805B1B00FBCEBB /* Record+CoreDataProperties.swift */,
+				CE68A0B51D805B1B00FBCEBB /* User.swift */,
+				CE68A0B61D805B1B00FBCEBB /* User+CoreDataProperties.swift */,
+				CE9EA7851D803EDF00E46A5C /* Nymeria.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3024CE51D12B014005BBB99 /* Spreadsheet */ = {
+			isa = PBXGroup;
+			children = (
+				D3024CEA1D12B250005BBB99 /* NYSpreadheetFormatTemplateView.swift */,
+				D3480AED1D141083001244A0 /* NYEPEducationSpreadsheetView.swift */,
+				D3024CEC1D12B28D005BBB99 /* NYBaseSpreadsheetView.swift */,
+				D3024CE81D12B098005BBB99 /* NYSpreadsheetTextFieldCell.swift */,
+				D3B8C0671D103081000603C2 /* NYSpreadsheetView.swift */,
+				D3024CE61D12B052005BBB99 /* NYSpreadsheetColHeaderView.swift */,
+			);
+			name = Spreadsheet;
+			sourceTree = "<group>";
+		};
+		D307A5341D1929CB001B435B /* NYParser */ = {
+			isa = PBXGroup;
+			children = (
+				D307A5351D192AAE001B435B /* NYParser.swift */,
+				D3D7E5DA1D3FACA400139B05 /* NYOperation.swift */,
+				D3D7E5DC1D3FAD4900139B05 /* NYParser+Perform.swift */,
+			);
+			name = NYParser;
+			sourceTree = "<group>";
+		};
+		D31261731D44D64B000838A0 /* Educational Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D31261741D44D6A9000838A0 /* NYEPLifelineEducationView.swift */,
+			);
+			name = "Educational Planning";
+			sourceTree = "<group>";
+		};
+		D331580D1D05C58B00C7E595 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D331580E1D05C5B300C7E595 /* LeftMenu.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		D34A37BE1D05824400540AE9 /* Menu Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D34A37BF1D05827E00540AE9 /* NYMenuTableHeaderViewCell.xib */,
+				D34A37C41D05838800540AE9 /* NYMenuTableViewCell.xib */,
+			);
+			name = "Menu Table View Cells";
+			sourceTree = "<group>";
+		};
+		D34A37C11D0582D000540AE9 /* Menu Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D34A37C21D05833E00540AE9 /* NYMenuTableHeaderViewCell.swift */,
+				D34A37C61D0583FD00540AE9 /* NYMenuTableViewCell.swift */,
+			);
+			name = "Menu Table View Cells";
+			sourceTree = "<group>";
+		};
+		D3564EA61D1170E8009EC5B5 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3024CE11D12AE56005BBB99 /* NYSpreadsheetTextFieldCell.xib */,
+				D3024CE31D12AED0005BBB99 /* NYSpreadsheetColHeaderView.xib */,
+				D36A75571D1E70F10075C4A1 /* NYNavBar.xib */,
+				CE8317AD1DA261C5004F4198 /* NYLoadingIndicator.xib */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D3978C421D03C7A600E96B4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA291D7DA537005F09AF /* CRUD Module Data */,
+				D3F4C0581D08880B007B97D6 /* Educational Planning */,
+				D3AFA3261D163603002510E9 /* Retirement Planning */,
+				D3D888F21D4CC59400B5B171 /* Income Contuinity */,
+				048711181D2E7CCB005531A9 /* Estate Conservation Planning */,
+				041C82D11D277A24003D16DC /* Business Planning */,
+				041F5D0B1D31E933007E70CD /* Miscellaneous Ideas */,
+				D3978C761D04131300E96B4F /* Menu */,
+				D3978C441D03C7CA00E96B4F /* Base Controllers */,
+				D3978C581D03C93B00E96B4F /* Register */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D3978C441D03C7CA00E96B4F /* Base Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C491D03C82A00E96B4F /* NYBaseViewController.swift */,
+				D3978C5C1D03C99C00E96B4F /* NYBaseTableViewController.swift */,
+				D3F4C0591D088854007B97D6 /* NYBaseSpreadsheetController.swift */,
+			);
+			name = "Base Controllers";
+			sourceTree = "<group>";
+		};
+		D3978C451D03C7D300E96B4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA281D7DA513005F09AF /* CRUD Module Data */,
+				D3024CE51D12B014005BBB99 /* Spreadsheet */,
+				D3D888F11D4CC4CE00B5B171 /* Income Continuity */,
+				D31261731D44D64B000838A0 /* Educational Planning */,
+				D3F4C0601D088984007B97D6 /* Retirement Planning */,
+				048711171D2E7CBF005531A9 /* Estate Conservation Planning */,
+				041C82D41D277B8A003D16DC /* Business Planning */,
+				041F5D0A1D31E923007E70CD /* Miscellaneous Ideas */,
+				D3F4C05D1D0888DF007B97D6 /* Custom Views */,
+				D3978C721D03F14F00E96B4F /* Menu */,
+				D3978C641D03D02900E96B4F /* Register */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D3978C461D03C7D900E96B4F /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BA2E1D7DA5FB005F09AF /* CRUD Form Data */,
+				D3F4C0631D0889D9007B97D6 /* Educational Planning */,
+				D3AA0CF51D2D06B5002AE3E0 /* Retirement Planning */,
+				D3BF96CC1D476D850020F938 /* Income Continuity */,
+				048711141D2E7BC4005531A9 /* Estate Conservation Planning */,
+				041C82D71D277C45003D16DC /* Business Planning */,
+				041F5D091D31E912007E70CD /* Miscellaneous Ideas */,
+				D3564EA61D1170E8009EC5B5 /* Custom Views */,
+				D3978C751D03F1CA00E96B4F /* Menu */,
+				D3978C631D03D01F00E96B4F /* Register */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		D3978C4B1D03C82F00E96B4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF757461D802ACD005F3735 /* NYApiConnector.swift */,
+				CEF757471D802ACD005F3735 /* NYConstants.swift */,
+				CEF757481D802ACD005F3735 /* NYDBManager.swift */,
+				CEF757491D802ACD005F3735 /* NYLog.swift */,
+				CEF7574A1D802ACD005F3735 /* NYPopUpManager.swift */,
+				CEF7574B1D802ACD005F3735 /* NYUtility.swift */,
+				CE1AC4681D8E98910085D6B9 /* NYUserSession.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D3978C581D03C93B00E96B4F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C5A1D03C97F00E96B4F /* NYLandingPageViewController.swift */,
+				D3978C6A1D03DA5900E96B4F /* NYLoginViewController.swift */,
+				048627C31D08472100F014BD /* NYSignupViewController.swift */,
+				04041E131D50D8CE007AD374 /* NYProfileViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		D3978C631D03D01F00E96B4F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C611D03C9FD00E96B4F /* NYLandingView.xib */,
+				D3978C6C1D03DCB500E96B4F /* NYLoginView.xib */,
+				048627BF1D0841D000F014BD /* NYSignupView.xib */,
+				04041E0F1D50D777007AD374 /* NYProfileView.xib */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		D3978C641D03D02900E96B4F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C651D03D05100E96B4F /* NYLandingView.swift */,
+				D3978C6E1D03E2D200E96B4F /* NYLoginView.swift */,
+				048627C11D08449800F014BD /* NYSignupView.swift */,
+				04041E111D50D7CD007AD374 /* NYProfileView.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		D3978C721D03F14F00E96B4F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D34A37C11D0582D000540AE9 /* Menu Table View Cells */,
+				D3978C731D03F17600E96B4F /* NYHomeView.swift */,
+				D3978C7F1D04481500E96B4F /* NYMenuLeftView.swift */,
+				D3978C831D044EEF00E96B4F /* NYMenuRightView.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		D3978C751D03F1CA00E96B4F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D34A37BE1D05824400540AE9 /* Menu Table View Cells */,
+				D3978C701D03F11500E96B4F /* NYHomeView.xib */,
+				D3978C7D1D04469C00E96B4F /* NYMenuLeftView.xib */,
+				D3978C811D044EA300E96B4F /* NYMenuRightView.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		D3978C761D04131300E96B4F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C5F1D03C9DA00E96B4F /* NYHomeViewController.swift */,
+				D3978C771D04133800E96B4F /* NYMenuRootViewController.swift */,
+				D3978C791D04136C00E96B4F /* NYMenuLeftViewController.swift */,
+				D3978C7B1D0413B600E96B4F /* NYMenuRightViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		D3AA0CF51D2D06B5002AE3E0 /* Retirement Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D31261671D44CA43000838A0 /* NYRPCapitalFundView.xib */,
+				D31261681D44CA43000838A0 /* NYRPPensionFundView.xib */,
+				D31261691D44CA43000838A0 /* NYRPRetirementFundView.xib */,
+				D312616A1D44CA43000838A0 /* NYRPSavingsFundView.xib */,
+			);
+			name = "Retirement Planning";
+			sourceTree = "<group>";
+		};
+		D3AFA3261D163603002510E9 /* Retirement Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D31261631D44A84A000838A0 /* NYRPBaseViewController.swift */,
+				D3AFA3281D1638F8002510E9 /* NYRPSavingsFundViewController.swift */,
+				D3AFA32B1D16CB77002510E9 /* NYRPRetirementFundViewController.swift */,
+				D3C669111D33AF2E00E884C1 /* NYRPPensionFundViewController.swift */,
+				D3F81E711D34679300CC73C4 /* NYRPCapitalFundViewController.swift */,
+			);
+			name = "Retirement Planning";
+			sourceTree = "<group>";
+		};
+		D3BF96CC1D476D850020F938 /* Income Continuity */ = {
+			isa = PBXGroup;
+			children = (
+				D3918BA91D4DD40E00EEAE22 /* NYICFamilyProviderView.xib */,
+				D3BF96CD1D476E480020F938 /* NYICLovingSpouseView.xib */,
+				D301BDA81D4E5A7500A69D3D /* NYICGratefulChildView.xib */,
+			);
+			name = "Income Continuity";
+			sourceTree = "<group>";
+		};
+		D3C3AA881D0315B100A71047 = {
+			isa = PBXGroup;
+			children = (
+				D36A755D1D1EC1B40075C4A1 /* GoogleService-Info.plist */,
+				D36692ED1D07AA7A00048820 /* ObjC-Bridging-Header.h */,
+				D3C3AA931D0315B400A71047 /* Nymeria */,
+				D3C3AAAB1D0315B500A71047 /* NymeriaTests */,
+				D3C3AAB61D0315B500A71047 /* NymeriaUITests */,
+				D3C3AA921D0315B100A71047 /* Products */,
+				A179801DD1714B9082E64D5F /* Pods */,
+				339C1F910161CDED5B915175 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C3AA921D0315B100A71047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3AA911D0315B100A71047 /* FB101.app */,
+				D3C3AAA81D0315B500A71047 /* NymeriaTests.xctest */,
+				D3C3AAB31D0315B500A71047 /* NymeriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C3AA931D0315B400A71047 /* Nymeria */ = {
+			isa = PBXGroup;
+			children = (
+				0440D1571DE93F2600B0ED7B /* Fonts */,
+				CEF756F31D80177E005F3735 /* Database */,
+				D307A5341D1929CB001B435B /* NYParser */,
+				D331580D1D05C58B00C7E595 /* Plists */,
+				D3978C4B1D03C82F00E96B4F /* Helpers */,
+				D3978C461D03C7D900E96B4F /* Xibs */,
+				D3978C451D03C7D300E96B4F /* Views */,
+				D3978C421D03C7A600E96B4F /* Controllers */,
+				D3C3AA941D0315B400A71047 /* AppDelegate.swift */,
+				D3C3AA961D0315B400A71047 /* ViewController.swift */,
+				D3C3AA981D0315B500A71047 /* Main.storyboard */,
+				D3C3AA9E1D0315B500A71047 /* Assets.xcassets */,
+				D3C3AAA01D0315B500A71047 /* LaunchScreen.storyboard */,
+				D3C3AAA31D0315B500A71047 /* Info.plist */,
+				D3EE25911D2FE1AC00B2C8EC /* Modules.xcassets */,
+			);
+			path = Nymeria;
+			sourceTree = "<group>";
+		};
+		D3C3AAAB1D0315B500A71047 /* NymeriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3AAAC1D0315B500A71047 /* NymeriaTests.swift */,
+				D3C3AAAE1D0315B500A71047 /* Info.plist */,
+			);
+			path = NymeriaTests;
+			sourceTree = "<group>";
+		};
+		D3C3AAB61D0315B500A71047 /* NymeriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3AAB71D0315B500A71047 /* NymeriaUITests.swift */,
+				D3C3AAB91D0315B500A71047 /* Info.plist */,
+			);
+			path = NymeriaUITests;
+			sourceTree = "<group>";
+		};
+		D3D888F11D4CC4CE00B5B171 /* Income Continuity */ = {
+			isa = PBXGroup;
+			children = (
+				D3B72B781D4F6C5300E8CA03 /* NYICBaseView.swift */,
+				D3D888F31D4CC62E00B5B171 /* NYICFamilyProviderView.swift */,
+				D3918BAB1D4DD7E600EEAE22 /* NYICLovingSpouseView.swift */,
+				D301BDAA1D4E5AA800A69D3D /* NYICGratefulChildView.swift */,
+			);
+			name = "Income Continuity";
+			sourceTree = "<group>";
+		};
+		D3D888F21D4CC59400B5B171 /* Income Contuinity */ = {
+			isa = PBXGroup;
+			children = (
+				D3B72B761D4F696000E8CA03 /* NYICBaseViewController.swift */,
+				D3D888F51D4CC78B00B5B171 /* NYICFamilyProviderViewController.swift */,
+				D3918BAD1D4DD82500EEAE22 /* NYICLovingSpouseViewController.swift */,
+				D301BDAC1D4E5AD200A69D3D /* NYICGratefulChildViewController.swift */,
+			);
+			name = "Income Contuinity";
+			sourceTree = "<group>";
+		};
+		D3F4C0581D08880B007B97D6 /* Educational Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D3F4C05B1D0888C9007B97D6 /* NYEPLifelineEducationViewController.swift */,
+				D3480AEF1D1410DA001244A0 /* NYEPEducationSpreadsheetViewController.swift */,
+			);
+			name = "Educational Planning";
+			sourceTree = "<group>";
+		};
+		D3F4C05D1D0888DF007B97D6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3978C471D03C7FA00E96B4F /* NYBaseView.swift */,
+				D3978C561D03C90C00E96B4F /* NYTextField.swift */,
+				D36A75591D1E71060075C4A1 /* NYNavBar.swift */,
+				D3978C681D03D87400E96B4F /* NYButton.swift */,
+				D3D0014F1D1ACF03008F56D2 /* NYLabel.swift */,
+				D3C8A8E01D1D4FB50084F1E5 /* NYDatePickerToolBar.swift */,
+				D3C8A8E21D1D50D40084F1E5 /* NYDatePicker.swift */,
+				041E61841D443C9300FA3031 /* NYPickerView.swift */,
+				041E61861D443F6500FA3031 /* NYPickerViewToolbar.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D3F4C0601D088984007B97D6 /* Retirement Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D31261651D44A956000838A0 /* NYRPBaseView.swift */,
+				D3B2D0511D34073B004B9B96 /* NYRPSavingsFundView.swift */,
+				D3AA0CFC1D2D0DC2002AE3E0 /* NYRPRetirementFundView.swift */,
+				D3C6690F1D33AEE700E884C1 /* NYRPPensionFundView.swift */,
+				D3F81E6F1D34674100CC73C4 /* NYRPCapitalFundView.swift */,
+			);
+			name = "Retirement Planning";
+			sourceTree = "<group>";
+		};
+		D3F4C0631D0889D9007B97D6 /* Educational Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D312616F1D44CA6F000838A0 /* NYEPEducationSpreadsheetView.xib */,
+				D31261711D44CB94000838A0 /* NYEPLifelineEducationView.xib */,
+			);
+			name = "Educational Planning";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C3AA901D0315B100A71047 /* Nymeria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C3AABC1D0315B500A71047 /* Build configuration list for PBXNativeTarget "Nymeria" */;
+			buildPhases = (
+				1A115159174DC61394C7AE4D /* [CP] Check Pods Manifest.lock */,
+				7E292F21F719346C1F6B0889 /* [CP] Check Pods Manifest.lock */,
+				6C6EA1606FE1F6750A7DAA01 /* Rollout.io pre-build */,
+				0E27C1740E383F69EEBD3FBC /* üì¶ Check Pods Manifest.lock */,
+				D3C3AA8D1D0315B100A71047 /* Sources */,
+				D3C3AA8E1D0315B100A71047 /* Frameworks */,
+				D3C3AA8F1D0315B100A71047 /* Resources */,
+				E8149AE5C34953B1D8612FDF /* [CP] Embed Pods Frameworks */,
+				46A8D6F9E26B9733BFD48AC9 /* [CP] Copy Pods Resources */,
+				9FC9EC30BDDD275F48464FF1 /* Rollout.io post-build */,
+				0E66D1E492E6B895A4CB7C69 /* 📦 Embed Pods Frameworks */,
+				51AFC98E6A0E4D9B578B1016 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nymeria;
+			productName = Nymeria;
+			productReference = D3C3AA911D0315B100A71047 /* FB101.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C3AAA71D0315B500A71047 /* NymeriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C3AABF1D0315B500A71047 /* Build configuration list for PBXNativeTarget "NymeriaTests" */;
+			buildPhases = (
+				72F11D79DBC046D554ED57FA /* [CP] Check Pods Manifest.lock */,
+				98B9690B7FB3543D53702B56 /* [CP] Check Pods Manifest.lock */,
+				91F16178CF2A920AD63A3CA8 /* üì¶ Check Pods Manifest.lock */,
+				D3C3AAA41D0315B500A71047 /* Sources */,
+				D3C3AAA51D0315B500A71047 /* Frameworks */,
+				D3C3AAA61D0315B500A71047 /* Resources */,
+				52D0CE34F2C4968C5B59A618 /* [CP] Embed Pods Frameworks */,
+				6D709D6D77500FFA50D8DFA3 /* [CP] Copy Pods Resources */,
+				8060B72AB5C68DFD77D17486 /* 📦 Embed Pods Frameworks */,
+				3A0CBD3F8B21BA9AF2C2EA54 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C3AAAA1D0315B500A71047 /* PBXTargetDependency */,
+			);
+			name = NymeriaTests;
+			productName = NymeriaTests;
+			productReference = D3C3AAA81D0315B500A71047 /* NymeriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3C3AAB21D0315B500A71047 /* NymeriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C3AAC21D0315B500A71047 /* Build configuration list for PBXNativeTarget "NymeriaUITests" */;
+			buildPhases = (
+				D97FA9FEE64C2DEF2767FEBB /* [CP] Check Pods Manifest.lock */,
+				D8B49BC4066D0AF7AD60E6D8 /* [CP] Check Pods Manifest.lock */,
+				C9CD8E5F579312AAD1B85D77 /* üì¶ Check Pods Manifest.lock */,
+				D3C3AAAF1D0315B500A71047 /* Sources */,
+				D3C3AAB01D0315B500A71047 /* Frameworks */,
+				D3C3AAB11D0315B500A71047 /* Resources */,
+				1CF7A30C92B92BE8B98951D9 /* [CP] Copy Pods Resources */,
+				68467579F57BC112823AD661 /* 📦 Copy Pods Resources */,
+				CF3444E266A9396AB69656C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C3AAB51D0315B500A71047 /* PBXTargetDependency */,
+			);
+			name = NymeriaUITests;
+			productName = NymeriaUITests;
+			productReference = D3C3AAB31D0315B500A71047 /* NymeriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C3AA891D0315B100A71047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NY;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Boy Flores";
+				TargetAttributes = {
+					D3C3AA901D0315B100A71047 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CHBB6TDD2E;
+						LastSwiftMigration = 0820;
+					};
+					D3C3AAA71D0315B500A71047 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3C3AA901D0315B100A71047;
+					};
+					D3C3AAB21D0315B500A71047 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3C3AA901D0315B100A71047;
+					};
+				};
+			};
+			buildConfigurationList = D3C3AA8C1D0315B100A71047 /* Build configuration list for PBXProject "Nymeria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C3AA881D0315B100A71047;
+			productRefGroup = D3C3AA921D0315B100A71047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C3AA901D0315B100A71047 /* Nymeria */,
+				D3C3AAA71D0315B500A71047 /* NymeriaTests */,
+				D3C3AAB21D0315B500A71047 /* NymeriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C3AA8F1D0315B100A71047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F5D241D31EE87007E70CD /* NYMIComparativeAnalysisView.xib in Resources */,
+				D3B72B7B1D4F71A700E8CA03 /* NYBPDeferredCompensationView.xib in Resources */,
+				0440D17A1DE93F4900B0ED7B /* RobotoCondensed-LightItalic.ttf in Resources */,
+				D312616C1D44CA43000838A0 /* NYRPPensionFundView.xib in Resources */,
+				D3978C671D03D46700E96B4F /* NYLandingView.xib in Resources */,
+				CEA3BA301D7DA61A005F09AF /* NYOpenFormRecordView.xib in Resources */,
+				D36A75581D1E70F10075C4A1 /* NYNavBar.xib in Resources */,
+				04E08C1B1D2BC6110044B3D9 /* NYBPGroupRetirementView.xib in Resources */,
+				0440D16B1DE93F4900B0ED7B /* Roboto-BlackItalic.ttf in Resources */,
+				D31261721D44CB94000838A0 /* NYEPLifelineEducationView.xib in Resources */,
+				048627C01D0841D000F014BD /* NYSignupView.xib in Resources */,
+				0440D1791DE93F4900B0ED7B /* RobotoCondensed-Light.ttf in Resources */,
+				D31261701D44CA6F000838A0 /* NYEPEducationSpreadsheetView.xib in Resources */,
+				0440D16E1DE93F4900B0ED7B /* Roboto-Italic.ttf in Resources */,
+				041F5D251D31EE87007E70CD /* NYMIPesoDollarInvestmentView.xib in Resources */,
+				0440D16D1DE93F4900B0ED7B /* Roboto-BoldItalic.ttf in Resources */,
+				0440D16F1DE93F4900B0ED7B /* Roboto-Light.ttf in Resources */,
+				0440D16C1DE93F4900B0ED7B /* Roboto-Bold.ttf in Resources */,
+				D3EE25921D2FE1AC00B2C8EC /* Modules.xcassets in Resources */,
+				CE8317AE1DA261C5004F4198 /* NYLoadingIndicator.xib in Resources */,
+				0440D1731DE93F4900B0ED7B /* Roboto-Regular.ttf in Resources */,
+				D3978C821D044EA300E96B4F /* NYMenuRightView.xib in Resources */,
+				D331580F1D05C5B300C7E595 /* LeftMenu.plist in Resources */,
+				D312616D1D44CA43000838A0 /* NYRPRetirementFundView.xib in Resources */,
+				D3C3AAA21D0315B500A71047 /* LaunchScreen.storyboard in Resources */,
+				D3978C711D03F11500E96B4F /* NYHomeView.xib in Resources */,
+				D3978C7E1D04469C00E96B4F /* NYMenuLeftView.xib in Resources */,
+				D36A755E1D1EC1B40075C4A1 /* GoogleService-Info.plist in Resources */,
+				0440D1771DE93F4900B0ED7B /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				04041E101D50D777007AD374 /* NYProfileView.xib in Resources */,
+				0440D17B1DE93F4900B0ED7B /* RobotoCondensed-Regular.ttf in Resources */,
+				D3024CE41D12AED0005BBB99 /* NYSpreadsheetColHeaderView.xib in Resources */,
+				0440D1741DE93F4900B0ED7B /* Roboto-Thin.ttf in Resources */,
+				D312616B1D44CA43000838A0 /* NYRPCapitalFundView.xib in Resources */,
+				0440D1761DE93F4900B0ED7B /* RobotoCondensed-Bold.ttf in Resources */,
+				0440D1751DE93F4900B0ED7B /* Roboto-ThinItalic.ttf in Resources */,
+				D34A37C51D05838800540AE9 /* NYMenuTableViewCell.xib in Resources */,
+				D3918BAA1D4DD40E00EEAE22 /* NYICFamilyProviderView.xib in Resources */,
+				041F5D231D31EE87007E70CD /* NYMIBenefitSellingView.xib in Resources */,
+				041F5D1F1D31ED9F007E70CD /* NYMITermConversionView.xib in Resources */,
+				0440D1701DE93F4900B0ED7B /* Roboto-LightItalic.ttf in Resources */,
+				0440D1781DE93F4900B0ED7B /* RobotoCondensed-Italic.ttf in Resources */,
+				D34A37C01D05827E00540AE9 /* NYMenuTableHeaderViewCell.xib in Resources */,
+				0440D1711DE93F4900B0ED7B /* Roboto-Medium.ttf in Resources */,
+				D301BDA91D4E5A7500A69D3D /* NYICGratefulChildView.xib in Resources */,
+				D3024CE21D12AE56005BBB99 /* NYSpreadsheetTextFieldCell.xib in Resources */,
+				046DF5581D27D4050025D126 /* NYBPBusinessValuationView.xib in Resources */,
+				D312616E1D44CA43000838A0 /* NYRPSavingsFundView.xib in Resources */,
+				041C82D91D277C67003D16DC /* NYBPBusinessPlanningView.xib in Resources */,
+				D3978C6D1D03DCB500E96B4F /* NYLoginView.xib in Resources */,
+				D3C3AA9F1D0315B500A71047 /* Assets.xcassets in Resources */,
+				0440D16A1DE93F4900B0ED7B /* Roboto-Black.ttf in Resources */,
+				D3C3AA9A1D0315B500A71047 /* Main.storyboard in Resources */,
+				D3BF96CE1D476E480020F938 /* NYICLovingSpouseView.xib in Resources */,
+				0440D1721DE93F4900B0ED7B /* Roboto-MediumItalic.ttf in Resources */,
+				04B235721D30F6B5008BD36A /* NYEPEstatePlanningView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAA61D0315B500A71047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAB11D0315B500A71047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E27C1740E383F69EEBD3FBC /* üì¶ Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "üì¶ Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E66D1E492E6B895A4CB7C69 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A115159174DC61394C7AE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF7A30C92B92BE8B98951D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaUITests/Pods-NymeriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0CBD3F8B21BA9AF2C2EA54 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A8D6F9E26B9733BFD48AC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51AFC98E6A0E4D9B578B1016 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D0CE34F2C4968C5B59A618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68467579F57BC112823AD661 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaUITests/Pods-NymeriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6EA1606FE1F6750A7DAA01 /* Rollout.io pre-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rollout.io pre-build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ROLLOUT_lastXcodeprojConfiguration=6 \"${SRCROOT}/Pods/Rollout.io/lib/pre-build_xcode_phase\"";
+		};
+		6D709D6D77500FFA50D8DFA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F11D79DBC046D554ED57FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E292F21F719346C1F6B0889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8060B72AB5C68DFD77D17486 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaTests/Pods-NymeriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F16178CF2A920AD63A3CA8 /* üì¶ Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "üì¶ Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98B9690B7FB3543D53702B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC9EC30BDDD275F48464FF1 /* Rollout.io post-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rollout.io post-build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ROLLOUT_lastXcodeprojConfiguration=6 \"${SRCROOT}/Pods/Rollout.io/lib/post-build_xcode_phase\" -k 5752df60b9823b964d5a7158";
+		};
+		C9CD8E5F579312AAD1B85D77 /* üì¶ Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "üì¶ Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3444E266A9396AB69656C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymeriaUITests/Pods-NymeriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B49BC4066D0AF7AD60E6D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D97FA9FEE64C2DEF2767FEBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8149AE5C34953B1D8612FDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nymeria/Pods-Nymeria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C3AA8D1D0315B100A71047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B2D0521D34073B004B9B96 /* NYRPSavingsFundView.swift in Sources */,
+				0487111A1D2E7D01005531A9 /* NYEPEstateConservationViewController.swift in Sources */,
+				D3978C481D03C7FA00E96B4F /* NYBaseView.swift in Sources */,
+				CEA3BA2B1D7DA5A1005F09AF /* NYOpenFormRecordViewController.swift in Sources */,
+				D3D7E5DD1D3FAD4900139B05 /* NYParser+Perform.swift in Sources */,
+				D301BDAB1D4E5AA800A69D3D /* NYICGratefulChildView.swift in Sources */,
+				D3D888F41D4CC62E00B5B171 /* NYICFamilyProviderView.swift in Sources */,
+				D3978C801D04481500E96B4F /* NYMenuLeftView.swift in Sources */,
+				CE68A0B81D805B1B00FBCEBB /* Field+CoreDataProperties.swift in Sources */,
+				D301BDAD1D4E5AD200A69D3D /* NYICGratefulChildViewController.swift in Sources */,
+				04DBA1391D339563008DB6A0 /* NYMITermConversionView.swift in Sources */,
+				CE68A0BA1D805B1B00FBCEBB /* Form+CoreDataProperties.swift in Sources */,
+				D3024CE91D12B098005BBB99 /* NYSpreadsheetTextFieldCell.swift in Sources */,
+				D34A37C31D05833E00540AE9 /* NYMenuTableHeaderViewCell.swift in Sources */,
+				048627C21D08449800F014BD /* NYSignupView.swift in Sources */,
+				D3B72B7D1D4F724E00E8CA03 /* NYBPDeferredCompensationView.swift in Sources */,
+				D3B72B791D4F6C5300E8CA03 /* NYICBaseView.swift in Sources */,
+				CEF7574E1D802ACD005F3735 /* NYDBManager.swift in Sources */,
+				D3978C601D03C9DA00E96B4F /* NYHomeViewController.swift in Sources */,
+				D3978C661D03D05100E96B4F /* NYLandingView.swift in Sources */,
+				D3480AF01D1410DA001244A0 /* NYEPEducationSpreadsheetViewController.swift in Sources */,
+				D3978C781D04133800E96B4F /* NYMenuRootViewController.swift in Sources */,
+				D3F4C05A1D088854007B97D6 /* NYBaseSpreadsheetController.swift in Sources */,
+				D3978C5B1D03C97F00E96B4F /* NYLandingPageViewController.swift in Sources */,
+				04E08C1F1D2BCF360044B3D9 /* NYBPGroupRetirementViewController.swift in Sources */,
+				D3D888F61D4CC78B00B5B171 /* NYICFamilyProviderViewController.swift in Sources */,
+				D3B72B771D4F696000E8CA03 /* NYICBaseViewController.swift in Sources */,
+				D31261661D44A956000838A0 /* NYRPBaseView.swift in Sources */,
+				D31261641D44A84A000838A0 /* NYRPBaseViewController.swift in Sources */,
+				D3024CED1D12B28D005BBB99 /* NYBaseSpreadsheetView.swift in Sources */,
+				CE1AC4691D8E98910085D6B9 /* NYUserSession.swift in Sources */,
+				D3024CEB1D12B250005BBB99 /* NYSpreadheetFormatTemplateView.swift in Sources */,
+				041C82D61D277BBE003D16DC /* NYBPBusinessPlanningView.swift in Sources */,
+				041E61871D443F6500FA3031 /* NYPickerViewToolbar.swift in Sources */,
+				D3978C741D03F17600E96B4F /* NYHomeView.swift in Sources */,
+				D307A5361D192AAE001B435B /* NYParser.swift in Sources */,
+				D31261751D44D6A9000838A0 /* NYEPLifelineEducationView.swift in Sources */,
+				04DBA1381D339563008DB6A0 /* NYMIPesoDollarInvestmentView.swift in Sources */,
+				041E61851D443C9300FA3031 /* NYPickerView.swift in Sources */,
+				CE68A0B91D805B1B00FBCEBB /* Form.swift in Sources */,
+				D3978C6F1D03E2D200E96B4F /* NYLoginView.swift in Sources */,
+				CE9EA7871D803EDF00E46A5C /* Nymeria.xcdatamodeld in Sources */,
+				04E08C1D1D2BCE990044B3D9 /* NYBPGroupRetirementView.swift in Sources */,
+				04041E121D50D7CD007AD374 /* NYProfileView.swift in Sources */,
+				D3C8A8E11D1D4FB50084F1E5 /* NYDatePickerToolBar.swift in Sources */,
+				D3C8A8E31D1D50D40084F1E5 /* NYDatePicker.swift in Sources */,
+				046DF5541D27D3C60025D126 /* NYBPBusinessValuationViewController.swift in Sources */,
+				D3B72B7F1D4F762500E8CA03 /* NYBPDeferredCompensationViewController.swift in Sources */,
+				D36A755A1D1E71060075C4A1 /* NYNavBar.swift in Sources */,
+				D3480AEE1D141083001244A0 /* NYEPEducationSpreadsheetView.swift in Sources */,
+				D3AFA3291D1638F8002510E9 /* NYRPSavingsFundViewController.swift in Sources */,
+				CE68A0BB1D805B1B00FBCEBB /* Record.swift in Sources */,
+				D3F81E701D34674100CC73C4 /* NYRPCapitalFundView.swift in Sources */,
+				D3978C6B1D03DA5900E96B4F /* NYLoginViewController.swift in Sources */,
+				D34A37C71D0583FD00540AE9 /* NYMenuTableViewCell.swift in Sources */,
+				CE68A0B71D805B1B00FBCEBB /* Field.swift in Sources */,
+				04B235741D30F708008BD36A /* NYEPEstatePlanningView.swift in Sources */,
+				041F5D131D31EA1D007E70CD /* NYMIBenefitSellingViewController.swift in Sources */,
+				D3AA0CFE1D2D0DC2002AE3E0 /* NYRPRetirementFundView.swift in Sources */,
+				D3F81E721D34679300CC73C4 /* NYRPCapitalFundViewController.swift in Sources */,
+				048627C41D08472100F014BD /* NYSignupViewController.swift in Sources */,
+				04B235701D30DD25008BD36A /* NYEPEstateAvoidanceViewController.swift in Sources */,
+				D3978C4A1D03C82A00E96B4F /* NYBaseViewController.swift in Sources */,
+				D3C669121D33AF2E00E884C1 /* NYRPPensionFundViewController.swift in Sources */,
+				D3978C7A1D04136C00E96B4F /* NYMenuLeftViewController.swift in Sources */,
+				046DF5561D27D3E90025D126 /* NYBPBusinessValuationView.swift in Sources */,
+				CEF7574D1D802ACD005F3735 /* NYConstants.swift in Sources */,
+				CE68A0BE1D805B1B00FBCEBB /* User+CoreDataProperties.swift in Sources */,
+				D3C669101D33AEE700E884C1 /* NYRPPensionFundView.swift in Sources */,
+				D3978C7C1D0413B600E96B4F /* NYMenuRightViewController.swift in Sources */,
+				CE68A0BD1D805B1B00FBCEBB /* User.swift in Sources */,
+				04DBA1371D339563008DB6A0 /* NYMIComparativeAnalysisView.swift in Sources */,
+				D3D7E5DB1D3FACA400139B05 /* NYOperation.swift in Sources */,
+				D3B8C0681D103081000603C2 /* NYSpreadsheetView.swift in Sources */,
+				CEF757501D802ACD005F3735 /* NYPopUpManager.swift in Sources */,
+				D3C3AA971D0315B400A71047 /* ViewController.swift in Sources */,
+				CEA3BA2D1D7DA5F4005F09AF /* NYOpenFormRecordView.swift in Sources */,
+				D3AFA32C1D16CB77002510E9 /* NYRPRetirementFundViewController.swift in Sources */,
+				D3918BAE1D4DD82500EEAE22 /* NYICLovingSpouseViewController.swift in Sources */,
+				04DBA1361D339563008DB6A0 /* NYMIBenefitSellingView.swift in Sources */,
+				D3978C571D03C90C00E96B4F /* NYTextField.swift in Sources */,
+				D3024CE71D12B052005BBB99 /* NYSpreadsheetColHeaderView.swift in Sources */,
+				D3978C691D03D87400E96B4F /* NYButton.swift in Sources */,
+				CE68A0BC1D805B1B00FBCEBB /* Record+CoreDataProperties.swift in Sources */,
+				041F5D1B1D31EB23007E70CD /* NYMIPesoDollarInvestmentViewController.swift in Sources */,
+				D3918BAC1D4DD7E600EEAE22 /* NYICLovingSpouseView.swift in Sources */,
+				D3C3AA951D0315B400A71047 /* AppDelegate.swift in Sources */,
+				D3F4C05C1D0888C9007B97D6 /* NYEPLifelineEducationViewController.swift in Sources */,
+				CEF757511D802ACD005F3735 /* NYUtility.swift in Sources */,
+				CEF7574F1D802ACD005F3735 /* NYLog.swift in Sources */,
+				D3978C5D1D03C99C00E96B4F /* NYBaseTableViewController.swift in Sources */,
+				041C82D31D277AC1003D16DC /* NYBPBusinessPlanningViewController.swift in Sources */,
+				D3978C841D044EEF00E96B4F /* NYMenuRightView.swift in Sources */,
+				04041E141D50D8CE007AD374 /* NYProfileViewController.swift in Sources */,
+				CEF7574C1D802ACD005F3735 /* NYApiConnector.swift in Sources */,
+				D3D001501D1ACF03008F56D2 /* NYLabel.swift in Sources */,
+				041F5D0D1D31E95B007E70CD /* NYMITermConversionViewController.swift in Sources */,
+				041F5D151D31EA67007E70CD /* NYMIComparativeAnalysisViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAA41D0315B500A71047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C3AAAD1D0315B500A71047 /* NymeriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C3AAAF1D0315B500A71047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C3AAB81D0315B500A71047 /* NymeriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C3AAAA1D0315B500A71047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C3AA901D0315B100A71047 /* Nymeria */;
+			targetProxy = D3C3AAA91D0315B500A71047 /* PBXContainerItemProxy */;
+		};
+		D3C3AAB51D0315B500A71047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C3AA901D0315B100A71047 /* Nymeria */;
+			targetProxy = D3C3AAB41D0315B500A71047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C3AA981D0315B500A71047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C3AA991D0315B500A71047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C3AAA01D0315B500A71047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C3AAA11D0315B500A71047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C3AABA1D0315B500A71047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D3C3AABB1D0315B500A71047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C3AABD1D0315B500A71047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37E88C491332BA35FC07197 /* Pods-Nymeria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Nymeria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boyflores.financial-blueprint";
+				PRODUCT_NAME = FB101;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nymeria/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D3C3AABE1D0315B500A71047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9D269B7ABC4A2FB79EA32A /* Pods-Nymeria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Nymeria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boyflores.financial-blueprint";
+				PRODUCT_NAME = FB101;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nymeria/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D3C3AAC01D0315B500A71047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC55D4727CC6AFD520C3D64 /* Pods-NymeriaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NymeriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyflores.NymeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB101.app/FB101";
+			};
+			name = Debug;
+		};
+		D3C3AAC11D0315B500A71047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62114AF1F1D4BC5E6E81AEC6 /* Pods-NymeriaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NymeriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyflores.NymeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB101.app/FB101";
+			};
+			name = Release;
+		};
+		D3C3AAC31D0315B500A71047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF838C6F96C526933FED2C6 /* Pods-NymeriaUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = NymeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyflores.NymeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+				TEST_TARGET_NAME = Nymeria;
+			};
+			name = Debug;
+		};
+		D3C3AAC41D0315B500A71047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A4C48240B278ECD1FA9B2A /* Pods-NymeriaUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = NymeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyflores.NymeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+				TEST_TARGET_NAME = Nymeria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C3AA8C1D0315B100A71047 /* Build configuration list for PBXProject "Nymeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C3AABA1D0315B500A71047 /* Debug */,
+				D3C3AABB1D0315B500A71047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C3AABC1D0315B500A71047 /* Build configuration list for PBXNativeTarget "Nymeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C3AABD1D0315B500A71047 /* Debug */,
+				D3C3AABE1D0315B500A71047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C3AABF1D0315B500A71047 /* Build configuration list for PBXNativeTarget "NymeriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C3AAC01D0315B500A71047 /* Debug */,
+				D3C3AAC11D0315B500A71047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C3AAC21D0315B500A71047 /* Build configuration list for PBXNativeTarget "NymeriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C3AAC31D0315B500A71047 /* Debug */,
+				D3C3AAC41D0315B500A71047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE9EA7851D803EDF00E46A5C /* Nymeria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE9EA7861D803EDF00E46A5C /* Nymeria.xcdatamodel */,
+			);
+			currentVersion = CE9EA7861D803EDF00E46A5C /* Nymeria.xcdatamodel */;
+			name = Nymeria.xcdatamodeld;
+			path = Database/Nymeria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3C3AA891D0315B100A71047 /* Project object */;
+}

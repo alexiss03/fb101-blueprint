@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NYMenuLeftView" customModule="FB101" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vMk-SI-WQi">
+                    <rect key="frame" x="0.0" y="100" width="375" height="467"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vMk-SI-WQi" secondAttribute="trailing" id="3yg-RB-9Bf"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Cwz-l9-NV3"/>
+                <constraint firstAttribute="bottom" secondItem="vMk-SI-WQi" secondAttribute="bottom" constant="100" id="WYJ-QV-5Sj"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fEh-og-Dvk"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fQR-5v-Qem"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="jMf-TW-gZd"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xLu-l8-FJq"/>
+                <constraint firstItem="vMk-SI-WQi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yaw-qg-chZ"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="3yg-RB-9Bf"/>
+                    <exclude reference="Cwz-l9-NV3"/>
+                    <exclude reference="xLu-l8-FJq"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="tableView" destination="vMk-SI-WQi" id="8Pb-uQ-Aqt"/>
+            </connections>
+        </view>
+    </objects>
+</document>

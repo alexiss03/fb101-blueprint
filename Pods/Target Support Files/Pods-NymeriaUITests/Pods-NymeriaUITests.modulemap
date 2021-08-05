@@ -1,0 +1,6 @@
+framework module Pods_NymeriaUITests {
+  umbrella header "Pods-NymeriaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

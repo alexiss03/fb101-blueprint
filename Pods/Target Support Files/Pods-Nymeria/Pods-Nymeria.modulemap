@@ -1,0 +1,6 @@
+framework module Pods_Nymeria {
+  umbrella header "Pods-Nymeria-umbrella.h"
+
+  export *
+  module * { export * }
+}

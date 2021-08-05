@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Home</string>
+				<key>viewController</key>
+				<string>NYHomeViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>MAIN</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Education Spread Sheet</string>
+				<key>viewController</key>
+				<string>NYEPEducationSpreadsheetViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Lifeline Education</string>
+				<key>viewController</key>
+				<string>NYEPLifelineEducationViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>EDUCATIONAL PLANNING</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Savings Funding</string>
+				<key>viewController</key>
+				<string>NYRPSavingsFundViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Retirement Funding</string>
+				<key>viewController</key>
+				<string>NYRPRetirementFundViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Pension Funding</string>
+				<key>viewController</key>
+				<string>NYRPPensionFundViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Capital Funding</string>
+				<key>viewController</key>
+				<string>NYRPCapitalFundViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>RETIREMENT PLANNING</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Family Provider</string>
+				<key>viewController</key>
+				<string>NYICFamilyProviderViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Loving Spouse</string>
+				<key>viewController</key>
+				<string>NYICLovingSpouseViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Grateful Child</string>
+				<key>viewController</key>
+				<string>NYICGratefulChildViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>INCOME CONTINUITY</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Estate Conservation</string>
+				<key>viewController</key>
+				<string>NYEPEstateConservationViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Estate Tax Avoidance</string>
+				<key>viewController</key>
+				<string>NYEPEstateAvoidanceViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>ESTATE CONSERVATION PLANNING</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Business Planning Guide</string>
+				<key>viewController</key>
+				<string>NYBPBusinessPlanningViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Busines Valuation Template</string>
+				<key>viewController</key>
+				<string>NYBPBusinessValuationViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Deferred Compensation Plan</string>
+				<key>viewController</key>
+				<string>NYBPDeferredCompensationViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Group Retirement Planning</string>
+				<key>viewController</key>
+				<string>NYBPGroupRetirementViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>BUSINESS PLANNING</string>
+	</dict>
+	<dict>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Term Conversion</string>
+				<key>viewController</key>
+				<string>NYMITermConversionViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Benefit Selling</string>
+				<key>viewController</key>
+				<string>NYMIBenefitSellingViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Investment Comparative Analysis</string>
+				<key>viewController</key>
+				<string>NYMIComparativeAnalysisViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Peso vs. Dollar Investment</string>
+				<key>viewController</key>
+				<string>NYMIPesoDollarInvestmentViewController</string>
+			</dict>
+		</array>
+		<key>menuTitle</key>
+		<string>MISCELLANEOUS IDEAS</string>
+	</dict>
+	<dict>
+		<key>menuTitle</key>
+		<string>SETTINGS</string>
+		<key>subMenu</key>
+		<array>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Profile</string>
+				<key>viewController</key>
+				<string>NYProfileViewController</string>
+			</dict>
+			<dict>
+				<key>subMenuTitle</key>
+				<string>Logout</string>
+				<key>viewController</key>
+				<string>NYLogoutViewController</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

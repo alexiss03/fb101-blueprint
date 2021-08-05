@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UKx-9G-oQc" customClass="NYSpreadsheetTextFieldCell" customModule="Nymeria" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ycS-E4-EG2" customClass="NYTextField" customModule="Nymeria" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="QcG-d6-z6E"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QcG-d6-z6E"/>
+                            </mask>
+                        </variation>
+                    </textField>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="leading" secondItem="UKx-9G-oQc" secondAttribute="leading" id="54w-kS-rYk"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="height" secondItem="UKx-9G-oQc" secondAttribute="height" id="Ly2-hc-0vh"/>
+                <constraint firstAttribute="trailing" secondItem="ycS-E4-EG2" secondAttribute="trailing" id="OO3-To-ZOL"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="centerY" secondItem="UKx-9G-oQc" secondAttribute="centerY" id="OWr-45-45E"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="top" secondItem="UKx-9G-oQc" secondAttribute="top" id="P1i-w7-s42"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="width" secondItem="UKx-9G-oQc" secondAttribute="width" id="Uzy-7j-n39"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="leading" secondItem="UKx-9G-oQc" secondAttribute="leading" id="V6X-6x-Dlc"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="centerX" secondItem="UKx-9G-oQc" secondAttribute="centerX" id="XUy-u6-tYU"/>
+                <constraint firstAttribute="trailing" secondItem="ycS-E4-EG2" secondAttribute="trailing" id="nds-wJ-h0U"/>
+                <constraint firstItem="ycS-E4-EG2" firstAttribute="top" secondItem="UKx-9G-oQc" secondAttribute="top" id="vbv-7k-nSD"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="54w-kS-rYk"/>
+                    <exclude reference="OO3-To-ZOL"/>
+                    <exclude reference="P1i-w7-s42"/>
+                    <exclude reference="V6X-6x-Dlc"/>
+                    <exclude reference="nds-wJ-h0U"/>
+                    <exclude reference="vbv-7k-nSD"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="txtField" destination="ycS-E4-EG2" id="BGf-6M-QU3"/>
+            </connections>
+            <point key="canvasLocation" x="364" y="224"/>
+        </collectionViewCell>
+    </objects>
+</document>

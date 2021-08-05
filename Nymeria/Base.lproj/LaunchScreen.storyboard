@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="QgN-8F-4WJ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6D-gH-U2f">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSw-b2-vzY">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Guide Towards Financial Freedom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfU-4k-B7h">
+                                                <rect key="frame" x="274" y="284" width="477" height="31"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="27"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The beginning of planning is the end of confusion The end of the confusion is the beginnng of achievement" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IS5-y3-BFX">
+                                                <rect key="frame" x="287" y="355" width="451" height="58"/>
+                                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="21"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FINANCIAL BLUEPRINT 101" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5j-SD-KfS">
+                                                <rect key="frame" x="211" y="172" width="604" height="62"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="47"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="IS5-y3-BFX" firstAttribute="centerX" secondItem="NSw-b2-vzY" secondAttribute="centerX" id="26a-zo-2iR"/>
+                                            <constraint firstItem="W5j-SD-KfS" firstAttribute="centerX" secondItem="NSw-b2-vzY" secondAttribute="centerX" constant="1" id="Emq-Yi-8gt"/>
+                                            <constraint firstItem="FfU-4k-B7h" firstAttribute="centerX" secondItem="NSw-b2-vzY" secondAttribute="centerX" id="NBe-Nn-NkE"/>
+                                            <constraint firstItem="IS5-y3-BFX" firstAttribute="centerY" secondItem="NSw-b2-vzY" secondAttribute="centerY" id="NeE-H7-K5y"/>
+                                            <constraint firstItem="IS5-y3-BFX" firstAttribute="top" secondItem="FfU-4k-B7h" secondAttribute="bottom" constant="40" id="sOp-km-I8x"/>
+                                            <constraint firstItem="FfU-4k-B7h" firstAttribute="top" secondItem="W5j-SD-KfS" secondAttribute="bottom" constant="50" id="utJ-6o-VvD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NSw-b2-vzY" secondAttribute="bottom" id="6hy-hb-BeK"/>
+                                    <constraint firstItem="NSw-b2-vzY" firstAttribute="top" secondItem="F6D-gH-U2f" secondAttribute="top" id="TiW-eu-K1M"/>
+                                    <constraint firstItem="NSw-b2-vzY" firstAttribute="centerY" secondItem="F6D-gH-U2f" secondAttribute="centerY" id="WAX-ZW-Mpt"/>
+                                    <constraint firstItem="NSw-b2-vzY" firstAttribute="centerX" secondItem="F6D-gH-U2f" secondAttribute="centerX" id="ibl-6D-WDp"/>
+                                    <constraint firstItem="NSw-b2-vzY" firstAttribute="leading" secondItem="F6D-gH-U2f" secondAttribute="leading" id="l2E-Jd-5zj"/>
+                                    <constraint firstAttribute="trailing" secondItem="NSw-b2-vzY" secondAttribute="trailing" id="n1e-yz-4az"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QgN-8F-4WJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="49a-uR-cSO"/>
+                            <constraint firstItem="F6D-gH-U2f" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9md-8I-LTP"/>
+                            <constraint firstItem="QgN-8F-4WJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RPH-o6-Sxc"/>
+                            <constraint firstItem="F6D-gH-U2f" firstAttribute="leading" secondItem="QgN-8F-4WJ" secondAttribute="leading" id="Uxh-JG-87e"/>
+                            <constraint firstItem="F6D-gH-U2f" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="adK-Kk-hEm"/>
+                            <constraint firstItem="F6D-gH-U2f" firstAttribute="trailing" secondItem="QgN-8F-4WJ" secondAttribute="trailing" id="b72-xh-OG0"/>
+                            <constraint firstItem="F6D-gH-U2f" firstAttribute="top" secondItem="QgN-8F-4WJ" secondAttribute="top" id="lEo-kK-wvy"/>
+                            <constraint firstItem="QgN-8F-4WJ" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="leb-W7-ec7"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HomeBackground" width="2605" height="2000"/>
+    </resources>
+</document>

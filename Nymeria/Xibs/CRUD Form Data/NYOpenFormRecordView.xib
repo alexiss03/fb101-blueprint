@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NYOpenFormRecordViewController" customModule="FB101" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NYOpenFormRecordView" customModule="FB101" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="TaA-3e-zzj">
+                    <rect key="frame" x="0.0" y="44" width="600" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-Q2-5h5">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <items>
+                        <navigationItem title="Open Record" id="xgt-IQ-8QW">
+                            <barButtonItem key="leftBarButtonItem" title="X" id="4Qh-ps-EC6">
+                                <connections>
+                                    <action selector="dismissBtnTapped:" destination="iN0-l3-epB" id="xvx-kR-wZP"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="Edit" id="uk1-wi-QOz">
+                                <connections>
+                                    <action selector="editBtnTapped:" destination="iN0-l3-epB" id="I0F-qO-nbn"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter by Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnb-ay-hVi">
+                    <rect key="frame" x="8" y="98" width="107" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hq6-AU-eo8" customClass="NYDatePicker" customModule="FB101" customModuleProvider="target">
+                    <rect key="frame" x="125" y="94" width="196" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="End Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pco-ef-8gN" customClass="NYDatePicker" customModule="FB101" customModuleProvider="target">
+                    <rect key="frame" x="329" y="94" width="196" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihz-4c-rzP">
+                    <rect key="frame" x="535" y="94" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="LmV-Ex-yYC"/>
+                    </constraints>
+                    <state key="normal" title="Filter"/>
+                    <connections>
+                        <action selector="filterBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ABU-3v-DK3"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hYd-hW-aEb">
+                    <rect key="frame" x="0.0" y="154" width="600" height="426"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hq6-AU-eo8" secondAttribute="trailing" constant="8" id="1EH-Xt-byj"/>
+                <constraint firstAttribute="trailing" secondItem="Ihz-4c-rzP" secondAttribute="trailing" constant="19" id="1IZ-4v-oZ2"/>
+                <constraint firstItem="m9j-Q2-5h5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="20F-57-ykJ"/>
+                <constraint firstAttribute="trailing" secondItem="TaA-3e-zzj" secondAttribute="trailing" id="4kn-Ea-tq8"/>
+                <constraint firstItem="TaA-3e-zzj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7Fu-YW-Ul3"/>
+                <constraint firstItem="m9j-Q2-5h5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B2u-BZ-aKo"/>
+                <constraint firstItem="TaA-3e-zzj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C2Q-G7-tnc"/>
+                <constraint firstItem="pco-ef-8gN" firstAttribute="width" secondItem="hq6-AU-eo8" secondAttribute="width" id="JHx-sz-Hdq"/>
+                <constraint firstItem="hq6-AU-eo8" firstAttribute="centerY" secondItem="Nnb-ay-hVi" secondAttribute="centerY" id="NuB-XN-Bc4"/>
+                <constraint firstAttribute="trailing" secondItem="hYd-hW-aEb" secondAttribute="trailing" id="Ojj-hC-L9S"/>
+                <constraint firstItem="pco-ef-8gN" firstAttribute="centerY" secondItem="hq6-AU-eo8" secondAttribute="centerY" id="Q82-vq-EFI"/>
+                <constraint firstItem="Ihz-4c-rzP" firstAttribute="leading" secondItem="pco-ef-8gN" secondAttribute="trailing" constant="10" id="RfK-Wv-Pgk"/>
+                <constraint firstItem="TaA-3e-zzj" firstAttribute="top" secondItem="m9j-Q2-5h5" secondAttribute="bottom" id="TP2-36-0Ni"/>
+                <constraint firstItem="hYd-hW-aEb" firstAttribute="top" secondItem="hq6-AU-eo8" secondAttribute="bottom" constant="30" id="UMP-lC-OAm"/>
+                <constraint firstItem="Ihz-4c-rzP" firstAttribute="centerY" secondItem="pco-ef-8gN" secondAttribute="centerY" id="Uoe-9R-oKP"/>
+                <constraint firstAttribute="trailing" secondItem="m9j-Q2-5h5" secondAttribute="trailing" id="W2g-X6-595"/>
+                <constraint firstAttribute="trailing" secondItem="pco-ef-8gN" secondAttribute="trailing" constant="12" id="iAL-IC-vxZ"/>
+                <constraint firstItem="Nnb-ay-hVi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="jLb-St-U13"/>
+                <constraint firstAttribute="bottom" secondItem="hYd-hW-aEb" secondAttribute="bottom" constant="20" id="kfK-DP-yGR"/>
+                <constraint firstItem="hq6-AU-eo8" firstAttribute="leading" secondItem="Nnb-ay-hVi" secondAttribute="trailing" constant="10" id="qMj-bU-JPg"/>
+                <constraint firstItem="Nnb-ay-hVi" firstAttribute="top" secondItem="TaA-3e-zzj" secondAttribute="bottom" constant="10" id="rgo-bP-peu"/>
+                <constraint firstItem="hYd-hW-aEb" firstAttribute="top" secondItem="TaA-3e-zzj" secondAttribute="bottom" id="stw-O1-vgX"/>
+                <constraint firstItem="hYd-hW-aEb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zFe-lv-fjs"/>
+                <constraint firstItem="pco-ef-8gN" firstAttribute="leading" secondItem="hq6-AU-eo8" secondAttribute="trailing" constant="8" id="ziM-NC-Jb8"/>
+            </constraints>
+            <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7Fu-YW-Ul3"/>
+                    <exclude reference="1EH-Xt-byj"/>
+                    <exclude reference="stw-O1-vgX"/>
+                    <exclude reference="iAL-IC-vxZ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="editBtn" destination="uk1-wi-QOz" id="79Q-MY-Hxc"/>
+                <outlet property="endDate" destination="pco-ef-8gN" id="BbV-PF-zOr"/>
+                <outlet property="searchBar" destination="TaA-3e-zzj" id="iPj-Sb-grf"/>
+                <outlet property="startDate" destination="hq6-AU-eo8" id="os4-eR-HvD"/>
+                <outlet property="tableView" destination="hYd-hW-aEb" id="wqv-Jp-4Xf"/>
+            </connections>
+        </view>
+    </objects>
+</document>
